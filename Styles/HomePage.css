@@ -177,7 +177,7 @@ div{
     position: absolute;
     height: 400px;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 0 0 1.5%;
     /* overflow: scroll; */
     animation: .5s ease-in op ;
@@ -226,7 +226,7 @@ div{
     position: absolute;
     height: 300px;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 0 0 2%;
     /* overflow: scroll; */
     animation: .5s ease-in op ;
@@ -256,7 +256,7 @@ div{
     position: absolute;
     height: 200px;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 0 0 62%;
     /* overflow: scroll; */
     animation: .5s ease-in op ;
@@ -286,7 +286,7 @@ div{
     position: absolute;
     height: 370px;
     background-color: white;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 0 0 30%;
     /* overflow: scroll; */
     animation: .5s ease-in op ;
@@ -318,3 +318,251 @@ div{
   transform: rotateZ(180deg);
 }
 
+/* navBar */
+
+
+#flashBox{
+    width: 100%;
+    background-color: #fff200;
+    height: 335px;
+
+}
+
+#insFlash{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    height: 210px;
+    grid-template-columns: 18% 56% 26%;
+}
+
+.imgbell{
+    width: 10vw;
+    margin: 0  0 0 13%;
+}
+
+#bellImgDiv{
+    margin: 5% 0 0 0 ;
+}
+
+#redBox{
+    width: 20%;
+    height: 19px;
+    margin: 3% 0 0 0;
+    font-size: .8vw;
+    color: white;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: .4% 0 0 1%;
+    background-image: linear-gradient(to right, #bf0b28,#e8242b,#bf0b28);
+}
+
+/* #redBox::after {
+        content: '';
+        position: absolute;
+        top: 15px;
+        right: 0;
+        border-top: 80px solid white;
+        border-left: 80px solid yellow;
+        width: 0;
+      } */
+/* rgb(0,70,190) */
+
+
+
+    #hours{
+        font-size: 1.7vw;
+        font-weight: 800;
+        color: rgb(0,30,115);
+        margin: 1.4% 0 0 0;
+    }
+
+
+#flashSText{
+    color: rgb(0,70,190);
+    font-size: 4.6vw;
+    font-weight: 790;
+    margin: -1.5% 0 0 0;
+}
+
+#readyT{
+    font-size: 1.5vw;
+    color: rgb(0,30,115);
+    margin: -1% 0 0 0 ;
+}
+
+
+#shopNDiv{
+    width: 60%;
+    height: 100px;
+    margin: 20% 0 0 0;
+
+}
+
+#shopDST{
+    font-weight: 400;
+    font-size: .7vw;
+    color: rgb(85,85,90);
+
+}
+#hol{
+    color: rgb(4,87,200);
+    font-size: .71;
+}
+#hol:hover{
+    text-decoration: underline;
+    color: rgb(0,30,115);
+    cursor: pointer;
+}
+/* rgb(4,87,200) */
+ 
+#shopBtn{
+    width: 70%;
+    height: 30px;
+    border-radius: 3px;
+    background-color:rgb(0,70,190) ;
+    font-size: .8vw;
+    color: white;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5% 0 0 0;
+    margin: 5% 0 0 ;
+    transition: .2s linear;
+}
+
+#shopBtn:hover{
+    background-color: rgb(0,30,115);
+    color: rgb(235, 237, 241);
+    cursor: pointer;
+}
+
+
+#catText{
+    padding: 0 0 0 16.5%;
+    font-weight: 300;
+    font-size: 1vw;
+    color: rgb(0,30,115);
+}
+
+#allCate{
+    width: 65%;
+    height: 600px;
+    margin: -5.5% auto auto auto ;
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+#allCate>div>div:nth-child(1){
+    border-radius: 50%;
+    width: 89%;
+    height: 70%;
+    margin: 8% 0 0 8% ;
+    box-sizing: border-box;
+    border: 2px solid rgb(73,118,230);
+    background-color: white;
+}
+.img{
+    width: 70%;
+    height: 70%;
+    border-radius: 26%;
+    margin: 12% 0 0 14.7%;
+}
+#allCate>div>div:nth-child(2){
+    font-size: .8vw;
+    color: rgb(73,118,230);
+    font-weight: 600;
+    margin:  5% 0 0 9%;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+
+#allCate>div>div:nth-child(2):hover{
+    color: rgb(0,30,115);
+     cursor: pointer;
+     
+}
+
+#allCate>div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    /* border:2px solid rgb(0,30,115); */
+}
+
+
+
+#dealDay{
+    width: 100%;
+    height: 520px;
+    margin: 130px 0 0 0;
+    background-color: #f0f2f4;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 2%;
+    
+}
+
+#dealDay>div:nth-child(1){
+    margin: 3.5% 0 0 4%;
+    height: 90%;
+    box-sizing: border-box;
+    background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-68900-ghp-sub-dotd-211115-cd5e834b-5816-4d6d-9a59-3fbd2cf34e1d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#dealDay>div:nth-child(2){
+    margin: 3.5% 0 0 0;
+    height: 90%;
+    box-sizing: border-box;
+    background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-66491-ghp-sub-gi-211012-a461455e-6062-47c6-82db-8e3e38523e1f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#dD{
+    width: 16%;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(255,224,0);
+    margin: 52% 0 0 10%;
+    font-size: .9vw;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1% 0 0 0 ;
+    transition:.5s linear;
+}
+#dD:hover{
+    background-color:rgb(252, 229, 57) ;
+    cursor: pointer;
+}
+
+#gI{
+    width: 16%;
+    height: 30px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(255,224,0);
+    margin: 49.5% 0 0 10%;
+    font-size: .9vw;
+    font-weight: 600;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1% 0 0 0 ;
+    transition:.5s linear;
+}
+#gI:hover{
+    background-color:rgb(252, 229, 57) ;
+    cursor: pointer;
+}
+
+#emptyBox{
+    height: 300px;
+}
+div{
+
+    /* border: .2px solid black; */
+}
