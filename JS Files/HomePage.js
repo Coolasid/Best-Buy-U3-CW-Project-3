@@ -33,7 +33,24 @@ function showMenuBox(){
 }
 
 // searchRes=>
-    
+
+
+
+setInterval(searchInp,1000)
+function searchInp(){
+    let inpt = document.getElementById("inp").value;
+
+    if(inpt != ""){
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "block";
+    }
+    if(inpt == ""){
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "none";
+    }
+    // console.log(inpt)
+        
+}
 
 // holidayPoP=>
 
