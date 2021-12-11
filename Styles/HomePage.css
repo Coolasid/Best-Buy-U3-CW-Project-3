@@ -559,10 +559,131 @@ div{
     cursor: pointer;
 }
 
-#emptyBox{
-    height: 300px;
+#fOffer{
+
+    width: 98%;
+    height: 800px;
+    margin: 50px auto auto auto;
+
 }
+
+#offText{
+    font-size: 1.4vw;
+    font-weight: 600;
+    padding-bottom: 1%;
+    border-bottom: .5px solid #c5cbd5;
+}
+
+#allProd{
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin: 1% 0 0  0;
+}
+
+#allProd>div:nth-child(1),
+#allProd>div:nth-child(2){
+    border-right: 1px solid #e0e6ef;
+    border-bottom:1px solid #e0e6ef ;
+}
+
+#allProd>div:nth-child(4),
+#allProd>div:nth-child(5){
+    border-right: 1px solid #e0e6ef;
+}
+
+#allProd>div:nth-child(6){
+    
+    border-top:1px solid #e0e6ef ;
+}
+
+#allProd>div>div:nth-child(1){
+    width: 80%;
+    margin: auto;
+    height: 75%;
+}
+.imgp{
+    width: 90%;
+    height: 90%;
+}
+
+.imgp1{
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+}
+
+
+#allProd>div>div:nth-child(2){
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #0457c8;
+    line-height: 25px;
+    margin: 0 0 0 5%;
+
+}
+
+#allProd>div>div:nth-child(2):hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#allProd>div>div:nth-child(3){
+    width: 80%;
+    font-size: .75vw;
+    font-weight: 400;
+    opacity: .9;
+    line-height: 25px;
+    margin: 0 0 0 5%;
+    
+}
+
+
+#sliderDiv{
+    width: 98%;
+    height: 350px;
+    margin: auto ;
+}
+
+#sliderDiv>div:nth-child(1){
+      font-size: 1.3vw;
+    font-weight: 600;
+    padding-bottom: 1%;
+    border-bottom: .5px solid #c5cbd5;
+    
+}
+
+#fnt{
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+#products{
+    width: 100%;
+    height: 88%;
+    display: grid;
+    grid-template-columns: 3% auto 3%;
+}
+
+#leftA{
+    color: #0046be;
+    margin: 300% 0 0 5%;
+    font-size: 2.5vw;
+}
+
+#rightA{
+    color: #0046be;
+    margin: 300% 0 0 5%;
+    font-size: 2.5vw;
+}
+
 div{
 
-    /* border: .2px solid black; */
+    border: .2px solid black;
+}
+
+#emptyBox{
+    height: 600px;
+
 }
