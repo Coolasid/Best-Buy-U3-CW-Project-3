@@ -168,3 +168,25 @@ body{
 div{
     /* border: 0.1px solid black; */
 }
+#menuDiv:hover{
+    cursor: pointer;
+}
+#menuBox{
+    display: none;
+    width: 350px;
+    position: absolute;
+    height: 650px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 0 0 1.5%;
+    overflow: scroll;
+    animation: 2s linear all ;
+}
+@keyframes op{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
