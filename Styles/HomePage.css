@@ -113,6 +113,10 @@ body{
     grid-template-columns: 56% 44%;
 }
 
+#navBar2>div>div:hover,#second>div>div:hover{
+    cursor: pointer;
+}
+
 #first{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto;

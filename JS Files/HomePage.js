@@ -460,3 +460,19 @@ function backward() {
 
 
 
+//Linking of Pages=>
+
+
+let signIn = document.getElementById("signIn")
+let signUp = document.getElementById("cA");
+
+signIn.addEventListener("click",openSignIn)
+signUp.addEventListener("click",openSignUp)
+
+function openSignIn(){
+    window.location.href = "SignIn.html"
+}
+
+function openSignUp(){
+    window.location.href = "SignUp.html";
+}
