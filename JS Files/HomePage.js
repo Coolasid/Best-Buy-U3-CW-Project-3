@@ -123,7 +123,7 @@ function saveIBox() {
 
 let apProd = document.getElementById("aProducts");
 
-var sliderArr = [
+var sliderArr1 = [
 
     {
         img:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401049_sd.jpg;maxHeight=272;maxWidth=400",
@@ -161,14 +161,24 @@ var sliderArr = [
     },
 
     {
-        img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401049_sd.jpg;maxHeight=272;maxWidth=400",
+        img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6476/6476246cv21d.jpg;maxHeight=272;maxWidth=400",
         name: "Samsung - 70 Class TU6985 4K Crystal UHD Smart Tizen TV",
         rating: "4.5",
         price: "$599.99"
     },
 
+    
+
+]
+
+
+
+
+
+let sliderArr2 = [
+
     {
-        img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401049_sd.jpg;maxHeight=272;maxWidth=400",
+        img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6450/6450480_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.5",
         price: "$1,234.99"
@@ -182,7 +192,7 @@ var sliderArr = [
     },
 
     {
-        img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401049_sd.jpg;maxHeight=272;maxWidth=400",
+        img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6459/6459302_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.5",
         price: "$1,234.99"
@@ -209,17 +219,190 @@ var sliderArr = [
         price: "$749.99"
     },
 
-    {
-        img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453321_sd.jpg;maxHeight=272;maxWidth=400",
-        name: "LG - 65 Class A1 Series OLED 4K UHD Smart webOS TV",
-        rating: "4.5",
-        price: "$1,499.99"
-    },
-
+  
 
 ]
 
+// let rightArrow = document.getElementById("rightA");
+// rightArrow.addEventListener("click", forward);
 
-for(var i = 0; i < 6; i++){
-    
+function original() {
+
+    let productBox = document.getElementById('aProducts');
+
+
+        sliderArr1.forEach((el) =>{
+
+            // console.log(el.name);
+
+            let nm = el.name;
+            let img = el.img;
+            let rating = el.rating;
+            let price = el.price;
+
+
+            let Div = document.createElement("div");
+            Div.style.margin = "10% 0 0 2% "
+            // Div.style.transition = "1s linear"
+
+                let imgDiv = document.createElement("div");
+                imgDiv.style.height = "55%"
+                    let img1 = document.createElement('img');
+                    img1.src = img;
+                    img1.style.width = "90%";
+
+                imgDiv.append(img1);
+                
+                let nmDiv = document.createElement("div");
+                nmDiv.textContent = nm;
+                nmDiv.style.width = "85%"
+                nmDiv.style.fontSize = ".78vw"
+                nmDiv.style.color = "#0457c8"
+                nmDiv.style.lineHeight = "17px"
+                nmDiv.style.height = "55px"
+
+
+                let ratDiv = document.createElement("div");
+                ratDiv.textContent = "Ratings: " + rating;
+                ratDiv.style.fontSize = ".8vw"
+                ratDiv.style.height = "20px"
+            ratDiv.style.color = "#ffce00"
+
+                let priceDiv = document.createElement("div");
+                priceDiv.textContent = price;
+                priceDiv.style.fontSize = "1vw";
+                priceDiv.style.fontWeight = "600"
+
+
+            Div.append(imgDiv,nmDiv,ratDiv,priceDiv);
+
+            productBox.append(Div)
+        })
+
 }
+
+original()
+
+
+
+let rightArrow = document.getElementById("rightA");
+rightArrow.addEventListener("click", forward);
+
+function forward() {
+
+    let productBox = document.getElementById('aProducts');
+    productBox.textContent = null;
+
+    sliderArr2.forEach((el) => {
+
+        // console.log(el.name);
+
+        let nm = el.name;
+        let img = el.img;
+        let rating = el.rating;
+        let price = el.price;
+
+
+        let Div = document.createElement("div");
+        Div.style.margin = "10% 0 0 2% "
+
+        let imgDiv = document.createElement("div");
+        imgDiv.style.height = "55%"
+        let img1 = document.createElement('img');
+        img1.src = img;
+        img1.style.width = "90%";
+
+        imgDiv.append(img1);
+
+        let nmDiv = document.createElement("div");
+        nmDiv.textContent = nm;
+        nmDiv.style.width = "85%"
+        nmDiv.style.fontSize = ".78vw"
+        nmDiv.style.color = "#0457c8"
+        nmDiv.style.lineHeight = "17px"
+        nmDiv.style.height = "55px"
+
+
+        let ratDiv = document.createElement("div");
+        ratDiv.textContent = "Ratings: " + rating;
+        ratDiv.style.fontSize = ".8vw"
+        ratDiv.style.height = "20px"
+        ratDiv.style.color = "#ffce00"
+
+        let priceDiv = document.createElement("div");
+        priceDiv.textContent = price;
+        priceDiv.style.fontSize = "1vw";
+        priceDiv.style.fontWeight = "600"
+
+
+        Div.append(imgDiv, nmDiv, ratDiv, priceDiv);
+
+        productBox.append(Div)
+    })
+
+}
+
+
+
+let leftArrow = document.getElementById("leftA");
+leftArrow.addEventListener("click", backward);
+
+function backward() {
+
+    let productBox = document.getElementById('aProducts');
+
+    productBox.textContent = null;
+    sliderArr1.forEach((el) => {
+
+        // console.log(el.name);
+
+        let nm = el.name;
+        let img = el.img;
+        let rating = el.rating;
+        let price = el.price;
+
+
+        let Div = document.createElement("div");
+        Div.style.margin = "10% 0 0 2% "
+
+        let imgDiv = document.createElement("div");
+        imgDiv.style.height = "55%"
+        
+        let img1 = document.createElement('img');
+        img1.src = img;
+        // img1.style.margin = " 0 0 0 10%"
+        img1.style.width = "90%";
+
+        imgDiv.append(img1);
+
+        let nmDiv = document.createElement("div");
+        nmDiv.textContent = nm;
+        nmDiv.style.width = "85%"
+        nmDiv.style.fontSize = ".78vw"
+        nmDiv.style.color = "#0457c8"
+        nmDiv.style.lineHeight = "17px"
+        nmDiv.style.height = "55px"
+
+
+        let ratDiv = document.createElement("div");
+        ratDiv.textContent = "Ratings: " + rating;
+        ratDiv.style.fontSize = ".8vw"
+        ratDiv.style.height = "20px"
+        ratDiv.style.color = "#ffce00"
+
+        let priceDiv = document.createElement("div");
+        priceDiv.textContent = price;
+        priceDiv.style.fontSize = "1vw";
+        priceDiv.style.fontWeight = "600"
+
+
+        Div.append(imgDiv, nmDiv, ratDiv, priceDiv);
+
+        productBox.append(Div)
+    })
+
+}
+
+
+
+

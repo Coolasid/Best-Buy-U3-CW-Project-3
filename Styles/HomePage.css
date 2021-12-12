@@ -666,24 +666,119 @@ div{
     grid-template-columns: 3% auto 3%;
 }
 
+#aProducts{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto
+    auto;
+}
+
+#aProducts>div>div:nth-child(2):hover{
+    text-decoration: underline;
+}
+
 #leftA{
     color: #0046be;
     margin: 300% 0 0 5%;
     font-size: 2.5vw;
+    cursor: pointer;
 }
 
 #rightA{
     color: #0046be;
     margin: 300% 0 0 5%;
     font-size: 2.5vw;
+    cursor: pointer;
+}
+
+#giftEvery{
+    width: 98%;
+    margin: 20px auto auto auto ;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 2%;
+    
+}
+
+#giftEvery>div{
+    background-color: #e0e6ef;
+}
+
+#fText{
+    margin: 5% 0 0 5%;
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.box{
+    width: 90%;
+    height: 40%;
+    margin: 5% auto auto auto ;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-gap: 6%;
+}
+
+.box1{
+    width: 100%;
+    height: 85%;
+}
+.imgb{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.boxT{
+    font-size: 1vw;
+    color: #0046be;
+    margin: 3% 0 0 0 ;
+    font-weight: 200;
+}
+.boxT:hover{
+text-decoration: underline;
 }
 
 div{
 
-    border: .2px solid black;
+    /* border: .2px solid black; */
 }
 
-#emptyBox{
-    height: 600px;
 
+
+/* footer=> */
+
+
+#footer{
+    margin: 50px auto auto auto;
+    height: 200px;
+    background-color: #f0f2f4;
+    box-sizing: border-box;
+    padding: .2% 0 0 0 ;
+}
+
+#footBox{
+    width: 90%;
+    height: 130px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+#footBox>div>span{
+    font-size: 3.5vw;
+    color:#70757d;
+    
+    margin: 2% 0 0 40%;
+}
+
+.footText{
+    font-size: .8vw;
+    text-align: center;
+    font-weight: 600;
+    color: #0046be;
+}
+
+.footText:hover{
+    text-decoration: underline;
 }
