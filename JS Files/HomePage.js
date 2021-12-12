@@ -31,6 +31,58 @@ function showMenuBox(){
     c++;
     
 }
+// showMenuBox()
+
+let outerBox1 = document.getElementById("outerBox1");
+outerBox1.addEventListener("click",showNext);
+var o = 0;
+function showNext(){
+    let ch = document.getElementById("ch")
+    
+    let ext = document.getElementById("extend");
+    if (o % 2 == 0) {
+        ext.style.display = "block";
+        outerBox1.style.backgroundColor = "#0046c4"
+        ch.style.color = "white";
+        
+    }
+
+    if (o % 2 == 1) {
+        ext.style.display = "none";
+        outerBox1.style.backgroundColor = "white"
+        ch.style.color = "#0046c4";
+    }
+    o++;
+    
+}
+
+let outerB = document.getElementById("outerBox2");
+outerB.addEventListener("click", showNext1);
+var v = 0;
+function showNext1() {
+    let ch1 = document.getElementById("ch1")
+    
+    // outerBox1.style.backgroundColor = "#0046c4"
+    let sup = document.getElementById("Support");
+    if (v % 2 == 0) {
+        sup.style.display = "block";
+        outerB.style.backgroundColor = "#0046c4"
+        ch1.style.color = "white";
+    }
+
+    if (v % 2 == 1) {
+        sup.style.display = "none";
+        outerB.style.backgroundColor = "white"
+        ch1.style.color = "#0046c4";
+        
+        
+    }
+    v++;
+
+}
+
+
+
 
 // searchRes=>
 
@@ -96,6 +148,8 @@ function showAccBox() {
     e++;
 
 }
+
+// showAccBox();
 
 // savedItemsPopUp=>
 let sI = document.getElementById("saveI")

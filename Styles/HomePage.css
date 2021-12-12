@@ -175,7 +175,7 @@ div{
     display: none;
     width: 350px;
     position: absolute;
-    height: 400px;
+    height: 600px;
     background-color: white;
     /* border: 1px solid black; */
     margin: 0 0 0 1.5%;
@@ -183,7 +183,71 @@ div{
     animation: .5s ease-in op ;
 }
 
+#menuBox>div:nth-child(1)>div>div{
+    width: 90%;
+    font-size: 1vw;
+    color: #0046c4;
+    /* margin: 5% 0 0 5%; */
+    border-bottom: 1px solid #e0e6ef;
+    padding-bottom: 4%;
+    font-weight: 600;
+    
+}
 
+#outerBox1{
+    /* background-color: black; */
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5% 0 0 5%; 
+}
+
+#menuBox>div:nth-child(1)>div:nth-child(1)>div>span{
+    font-size: 1vw;
+    margin: 0  0 0 79%;
+}
+
+#menuBox>div:nth-child(1)>div:nth-child(2)>div>span{
+    font-size: 1vw;
+    margin: 0  0 0 45%;
+}
+
+#menuBox>div:nth-child(1)>div:nth-child(3)>div>span{
+    font-size: 1vw;
+    margin: 0  0 0 74%;
+}
+
+#menuBox>div:nth-child(1)>div:nth-child(4)>div>span{
+    font-size: 1vw;
+    margin: 0  0 0 69%;
+}
+
+#outerBox2{
+    /* background-color: black; */
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5% 0 0 5%; 
+}
+
+#outerBox3{
+    /* background-color: black; */
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5% 0 0 5%; 
+}
+
+#outerBox4{
+    /* background-color: black; */
+    height: 50px;
+    box-sizing: border-box;
+    padding: 5% 0 0 5%; 
+}
+
+
+
+
+div{
+    /* border: .2px solid black; */
+}
 
 
 
@@ -202,6 +266,30 @@ div{
   border-style: solid;
   border-color: white transparent transparent transparent;
   transform: rotateZ(180deg);
+}
+
+#extend{
+     display: none;
+    width: 350px;
+    position: absolute;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 0 0 24.25%;
+    /* overflow: scroll; */
+    animation: .5s ease-in op ;
+}
+
+#Support{
+     display: none;
+    width: 350px;
+    position: absolute;
+    height: 600px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0 0 0 24.25%;
+    /* overflow: scroll; */
+    animation: .5s ease-in op ;
 }
 
 ::-webkit-scrollbar {
@@ -254,12 +342,63 @@ div{
    display: none;
     width: 350px;
     position: absolute;
-    height: 200px;
+    height: 160px;
     background-color: white;
     /* border: 1px solid black; */
     margin: 0 0 0 62%;
     /* overflow: scroll; */
     animation: .5s ease-in op ;
+}
+div{
+    /* border: 1px solid black; */
+}
+
+#accText{
+    width: 75%;
+    margin: 15px auto auto auto;
+    font-size: .8vw;
+    text-align: center;
+    
+}
+
+#signIn{
+    width: 70%;
+    height: 30px;
+    margin: 15px auto auto auto;
+    background-color: #0046c4;
+    color: white;
+    border-radius: 5px;
+    font-size: .9vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1.9% 0 0 0 ;
+    font-weight: 600;
+    transition: .2s linear;
+}
+
+#signIn:hover{
+    background-color: #001e73;
+}
+
+#cA{
+    width: 70%;
+    height: 30px;
+    margin: 15px auto auto auto;
+    background-color:white ;
+    color: #0046c4;
+    border-radius: 5px;
+    font-size: .9vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 1.5% 0 0 0 ;
+    font-weight: 600;
+    border: 1px solid #0046c4;
+    transition: .2s linear;
+}
+
+#cA:hover{
+    background-color: #001e73;
+    color: white;
 }
 
 #accountPopUp::before{
