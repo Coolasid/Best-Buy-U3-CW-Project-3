@@ -214,7 +214,7 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
     mainDiv.style.display = "grid";
     mainDiv.style.gridTemplateColumns = "33.33% 33.33% 33.33%"
     mainDiv.style.width = "100%"
-    mainDiv.style.height = "290px"
+    mainDiv.style.height = "270px"
     mainDiv.style.margin = "2% 0 0 0"
     mainDiv.style.borderBottom = "1px solid rgb(197,203,213)"
 
@@ -399,16 +399,54 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
 
 
                 let compDiv = document.createElement("div");
-                compDiv.style.marginTop = "5%"
+                compDiv.style.marginTop = "8%"
                 compDiv.style.display = "grid";
-                compDiv.style.gridTemplateColumns = "50% 50%"
+                compDiv.style.gridTemplateColumns = "30% 50%"
 
                     let compcheckBoxDiv = document.createElement("div");
                     compcheckBoxDiv.style.display = "grid";
-                    
+                    compcheckBoxDiv.style.gridTemplateColumns = "25% 70%"
+
+
+                        let check = document.createElement("input")
+                        check.type = "checkBox";
+
+                        let compT = document.createElement("div")
+                        compT.textContent = "Compare"
+                        compT.style.color = "rgb(24,100,204)"
+                        compT.style.fontSize = ".85vw"
+                        compT.style.paddingTop = "3%"
+
+
+                    compcheckBoxDiv.append(check,compT)
                     
                     
                     let saveDiv = document.createElement("div");
+                    saveDiv.style.display = "grid";
+                    saveDiv.style.gridTemplateColumns = "17% 70%"
+
+
+
+                        let savel = document.createElement("div");
+                        savel.innerHTML = `<div class="material-icons-outlined" id="savelogo">
+                                            bookmark_border
+                                            </div>`
+
+                        savel.addEventListener("click",save);
+
+                        function save(){
+                            savel.style.color = "rgb(0,70,190)";
+                        }
+
+
+                        let saveT = document.createElement("div")
+                        saveT.textContent = "Save";
+                        saveT.style.color = "rgb(24,100,204)"
+                        saveT.style.fontSize = ".85vw"
+                        saveT.style.paddingTop = "1.5%";
+
+                    saveDiv.append(savel, saveT)
+
 
                 compDiv.append(compcheckBoxDiv,saveDiv);
 
@@ -420,7 +458,30 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
 
 
         let tDiv = document.createElement("div");
+            
 
+            let itDiv = document.createElement("div");
+            itDiv.style.margin = "2% 0 0 22%"
+            
+            
+
+                let priceDiv = document.createElement("div");
+                priceDiv.textContent = "$" + price
+                priceDiv.style.color = "rgb(29,37,44)"
+                priceDiv.style.fontSize = "1.7vw"
+                priceDiv.style.fontWeight = "600"
+
+
+                
+                let savePDiv = document.createElement("div");
+                
+
+
+
+            itDiv.append(priceDiv);
+
+
+        tDiv.append(itDiv);
 
     mainDiv.append(fDiv,sDiv,tDiv);
 

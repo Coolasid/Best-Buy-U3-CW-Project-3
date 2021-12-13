@@ -796,8 +796,15 @@ color: #1D252C;
     text-decoration: underline;
     cursor: pointer;
 }
+
+#savelogo{
+    font-size: 1.4vw;
+    cursor: pointer;
+    /* color: rgb(0,70,190); */
+    margin-top:0% ;
+}
 div{
-    border: .2px solid black;
+    /* border: .2px solid black; */
 }
 span{
     /* border: .2px solid blue; */
