@@ -527,28 +527,28 @@ div{
 #sortDiv{
     border: 1px solid rgb(197,203,213);
     overflow: scroll;
-    height: 600px;
+    height: 487px;
 }
 
 
 #allSortDiv{
     width: 91%;
     margin: 5% auto auto 4%;
-    height: 500px;
+    /* height: 300px; */
 }
 
-#bord{
+#pickUp{
      border-bottom: 1px solid rgb(197,203,213);
 }
 
 #gText{
     font-size: 1.1vw;
     font-weight: 600;
-
+color: #1D252C;
 }
 #sText{
     font-size: .78vw;
-    margin-top: 2%;
+    margin-top: 4%;
 }
 #col{
     color: #0046BE;
@@ -557,17 +557,44 @@ div{
 #sameD{
     display: grid;
     grid-template-columns: 8% 80%;
-    margin: 3% 0 0 0;
+    margin: 5% 0 0 0;
 }
 
 #sameT{
     font-size: .78vw;
     box-sizing: border-box;
     padding-top: 1% ;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
    
 }
 
+#priceSortDiv{
+    margin-top: 6%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid rgb(197,203,213);
+}
+
+#price{
+     font-size: 1.1vw;
+    font-weight: 600;
+    padding-bottom: 4%;
+    color: #1D252C;
+}
+
+
+.fDiv{
+    display: grid;
+    grid-template-columns: 8% 80%;
+    padding-bottom: 2%;
+}
+
+
+.priceText{
+    font-size: .81vw;
+    color: #1D252C;
+    font-weight: 200;
+    padding-top: 1%;
+}
 
 div{
     /* border: .2px solid black; */
