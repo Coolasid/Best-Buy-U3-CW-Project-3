@@ -485,11 +485,11 @@ div{
     font-size: .75vw;
     display: grid;
     margin-top:.5% ;
-    grid-template-columns: 27% 10% 40%;
+    grid-template-columns: 21% 10% 40%;
 }
 
 #bb{
-    margin: 8% 0 0 0 ;
+    margin: 9.5% 0 0 0 ;
     color: #0046BE;
 }
 
@@ -499,13 +499,13 @@ div{
 }
 
 #c{
-    margin: 5.5% 0 0 2% ;
+    margin: 5.5% 0 0 3% ;
 
 }
 
 #cont{
     width: 100%;
-    height: 900px;
+    height: 750px
 
 }
 
@@ -518,7 +518,7 @@ div{
 #mainCont{
 
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
     margin: 1.2% 0 0 0;
     display: grid;
     grid-template-columns: 23% 77%;
@@ -526,8 +526,10 @@ div{
 
 #sortDiv{
     border: 1px solid rgb(197,203,213);
-    overflow: scroll;
-    height: 487px;
+    /* overflow: scroll; */
+    height: 620px;
+    /* position: fixed; */
+    /* scroll-margin-block-start: 20px; */
 }
 
 
@@ -574,6 +576,12 @@ color: #1D252C;
     border-bottom: 1px solid rgb(197,203,213);
 }
 
+#priceSortDiv1{
+    margin-top: 6%;
+    padding-bottom: 4%;
+    /* border-bottom: 1px solid rgb(197,203,213); */
+}
+
 #price{
      font-size: 1.1vw;
     font-weight: 600;
@@ -596,6 +604,206 @@ color: #1D252C;
     padding-top: 1%;
 }
 
+
+#prodDiv{
+
+    height: 680px;
+    margin: 0 0 0 2%;
+    overflow: scroll;
+    
+}
+
+#mondayDiv{
+    width: 100%;
+    height: 210px;
+    background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/dam/GL-66620-scpl-cbw-wish-list-full-211112-f7d1b523-64e8-4b9b-a8e0-c4bc71c3ed28.png");
+
+    display: grid;
+    grid-template-columns: 15% 62% 17%;
+}
+
+#boxImgDiv{
+    width: 60%;
+    height: 60%;
+    margin: 12% 0 0 38%;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+
+#greenDiv{
+    margin: 7% 0 0 3%;
+    font-size: 4vw;
+    font-weight: 600;
+    color: white;
+}
+
+#greenST{
+
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: rgb(255,242,0); 
+    margin: .5% 0 0 3%;
+}
+#smallText{
+    font-size: .75vw;
+    color: white;
+    margin: 30% 0 0 0 ;
+}
+#yC{
+    color:rgb(228,220,12) ;
+}
+
+#shopBtn{
+    height: 30px;
+    background-color: white;
+    width: 60%;
+    border-radius: 5px;
+    color: rgb(20,85,195);
+    font-size: .8vw;
+    font-weight: 600;
+    margin: 10% 0 0 0;
+    box-sizing: border-box;
+    padding-top: 3.5%;
+    padding-left: 13%;
+    /* text-align: center; */
+    transition: .2s linear;
+    border: 1px solid white;
+}
+
+#shopBtn:hover{
+    background-color: rgb(0,30,115);
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+#allScrollProd{
+    width: 100%;
+    /* height: 585px ; */
+    
+}
+
+#sortByDiv{
+    display: flex;
+    font-size: .8vw;
+    font-weight: 600;
+    margin: 2% 0 0 0;
+    box-sizing:border-box;
+    padding: 0 0 0 1%;
+    border-bottom: 1px solid rgb(197,203,213);
+}
+#it{
+    width: 10%;
+    padding-top: 1%;
+    box-sizing: border-box;
+}
+
+#sortInp{
+        margin: 0 0 0 64%;
+        width: 25%;
+        height: 30px;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        padding-bottom: 2%;
+}
+
+#sel{
+    width: 90%;
+    height: 100%;
+    padding: 0 0 0 5%;
+    font-size: 1vw;
+    box-sizing: 5px;
+    outline: none;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+#sel:hover{
+    border: 1px solid rgb(0,70,190);
+}
+#srt{
+    box-sizing: border-box;
+    padding-top: 11%;
+}
+
+
+#prod{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 100px;
+}
+
+/* #img{
+    width: 50%;
+    height: 50%;
+} */
+
+
+
+#appProducts>div>div:nth-child(1)>div:nth-child(2){
+    color: rgb(24,100,204);
+    
+}
+#appProducts>div>div:nth-child(1)>div:nth-child(2):hover{
+    color: rgb(0,30,115);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#appProducts>div>div:nth-child(2)>div>div:nth-child(1){
+    color: rgb(24,100,204);
+    cursor: pointer;
+}
+
+#appProducts>div>div:nth-child(2)>div>div:nth-child(1):hover{
+    color: rgb(0,30,115);
+    text-decoration: underline;
+}
+
+#star{
+    font-size: 1vw;
+    color: rgb(255,224,0);
+    /* margin: -1%  0 0 0 ; */
+}
+#logoD{
+    font-size: 1.4vw;
+   color:  rgb(4,12,19);
+}
+
+
+#appProducts>div>div:nth-child(2)>div>div:nth-child(6){
+    color: rgb(24,100,204);
+    cursor: pointer;
+}
+#appProducts>div>div:nth-child(2)>div>div:nth-child(6):hover{
+    color: rgb(0,30,115);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+#appProducts>div>div:nth-child(2)>div>div:nth-child(8){
+    color: rgb(24,100,204);
+    /* text-decoration: underline; */
+    cursor: pointer;
+}
+#appProducts>div>div:nth-child(2)>div>div:nth-child(8):hover{
+    color: rgb(0,30,115);
+    text-decoration: underline;
+    cursor: pointer;
+}
 div{
-    /* border: .2px solid black; */
+    border: .2px solid black;
+}
+span{
+    /* border: .2px solid blue; */
+}
+
+.empty{
+    height: 400px;
+    width: 50%;
 }
