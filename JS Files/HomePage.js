@@ -1,3 +1,5 @@
+// naveBar
+
 // menuBox=>
 
 let hamb = document.getElementById("menuDiv")
@@ -172,6 +174,24 @@ function saveIBox() {
 
 }
 
+//Linking of Pages=>
+
+
+let signIn = document.getElementById("signIn")
+let signUp = document.getElementById("cA");
+
+signIn.addEventListener("click", openSignIn)
+signUp.addEventListener("click", openSignUp)
+
+function openSignIn() {
+    window.location.href = "SignIn.html"
+}
+
+function openSignUp() {
+    window.location.href = "SignUp.html";
+}
+
+// naveBar
 
 // Slider=>
 
@@ -460,22 +480,7 @@ function backward() {
 
 
 
-//Linking of Pages=>
 
-
-let signIn = document.getElementById("signIn")
-let signUp = document.getElementById("cA");
-
-signIn.addEventListener("click",openSignIn)
-signUp.addEventListener("click",openSignUp)
-
-function openSignIn(){
-    window.location.href = "SignIn.html"
-}
-
-function openSignUp(){
-    window.location.href = "SignUp.html";
-}
 
 
 var TvDataBase = [
@@ -694,9 +699,12 @@ function addTvData(){
 
     localStorage.setItem("productData", JSON.stringify(tvArr));
 
+    window.location.href = "productPage.html"
+
 }
 
 /////////////////////////
+
 
 var laptopDataBase = [
 
@@ -888,8 +896,33 @@ var laptopDataBase = [
 
 ]
 
+//adding tv dataBase to localStorage=>
+
+let laptopArr = document.getElementById("laptop");
+laptopArr.addEventListener("click",addLaptopData)
+
+function addLaptopData(){
+    // alert();
 
 
+    if (localStorage.getItem("productData") === null) {
+        localStorage.setItem("productData", JSON.stringify([]))
+    }
+
+    localStorage.setItem("productData", JSON.stringify([]));
+
+    let lpArr = JSON.parse(localStorage.getItem("productData"));
+
+    laptopDataBase.forEach((el)=>{
+        lpArr.push(el);
+    })
+
+    localStorage.setItem("productData", JSON.stringify(lpArr));
+
+    window.location.href = "productPage.html"
+}
+
+/////////////////////////
 
 
 var gameDataBase = [
@@ -1081,3 +1114,33 @@ var gameDataBase = [
 
 
 ]
+
+//adding tv gameDataBase to localStorage=>
+
+let gameArr = document.getElementById("game");
+gameArr.addEventListener("click", addGameData)
+
+function addGameData() {
+    // alert();
+
+
+    if (localStorage.getItem("productData") === null) {
+        localStorage.setItem("productData", JSON.stringify([]))
+    }
+
+    localStorage.setItem("productData", JSON.stringify([]));
+
+    let gmArr = JSON.parse(localStorage.getItem("productData"));
+
+    gameDataBase.forEach((el) => {
+        gmArr.push(el);
+    })
+
+    localStorage.setItem("productData", JSON.stringify(gmArr));
+
+    window.location.href = "productPage.html"
+}
+
+/////////////////////////
+
+
