@@ -74,6 +74,7 @@ body{
 #aiea{
     display: grid;
     grid-template-columns: 88% 12%;
+    /* border: 1px solid red; */
 
 }
 
