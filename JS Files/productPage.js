@@ -432,9 +432,9 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
                                             bookmark_border
                                             </div>`
 
-                        savel.addEventListener("click",save);
+                        savel.addEventListener("click",saveI);
 
-                        function save(){
+                        function saveI(){
                             savel.style.color = "rgb(0,70,190)";
                         }
 
@@ -461,7 +461,7 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
             
 
             let itDiv = document.createElement("div");
-            itDiv.style.margin = "2% 0 0 22%"
+            itDiv.style.margin = "1.5% 0 0 25%"
             
             
 
@@ -474,11 +474,83 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
 
                 
                 let savePDiv = document.createElement("div");
+                savePDiv.style.display = "grid";
+                savePDiv.style.width = "55%"
+                savePDiv.style.height = "21px"
+                savePDiv.style.gridTemplateColumns = "50% 52%"
+                // savePDiv.style.border = "none"
+
+                    
+                        let savDiv = document.createElement("div");
+                        savDiv.textContent = "Save $" + save;
+                        savDiv.style.fontSize = ".8vw"
+                        savDiv.style.fontWeight = "600"
+                        savDiv.style.backgroundColor = "rgb(187,6,40)"
+                        savDiv.style.color = "white"
+                        savDiv.style.padding = "3.8% 0 0 0"
+                        savDiv.style.textAlign = "center"
+
+                        let wasDiv = document.createElement("div");
+                        wasDiv.textContent = "Was $"+ was
+                        wasDiv.style.fontSize = ".8vw"
+                        wasDiv.style.padding = "4.8% 0 0 7%"
+                         wasDiv.style.color = "rgb(29,37,44)"
+
                 
+                savePDiv.append(savDiv,wasDiv);
 
 
+                let freeDiv = document.createElement("div");
+                freeDiv.textContent = "Free item with purchase"
+                freeDiv.style.fontSize = ".75vw"
+                freeDiv.style.fontWeight = "600"
+                freeDiv.style.color = "rgb(0,70,190)"
+                freeDiv.style.marginTop = "6%"
+                freeDiv.style.cursor = "pointer"
 
-            itDiv.append(priceDiv);
+
+                let addBtnDiv = document.createElement("div");
+                addBtnDiv.style.width = "88%"
+                addBtnDiv.style.height = "30px"
+                addBtnDiv.style.borderRadius = "5px"
+                addBtnDiv.style.marginTop = "6%"
+                // addBtnDiv.style.paddingTop = "1.5%"
+                addBtnDiv.style.boxSizing = "borderBox";
+                addBtnDiv.style.backgroundColor = "rgb(255,224,0)"
+
+
+                        let addBtnIDiv = document.createElement("div");
+                        addBtnIDiv.style.width = "50%"
+                        addBtnIDiv.style.height = "20px"
+                        addBtnIDiv.style.margin = "0 0 0 28% "
+                        addBtnIDiv.style.paddingTop = "2.5%"
+                        addBtnIDiv.style.display = "grid";
+                        addBtnIDiv.style.gridTemplateColumns = "25% 75%"
+                        addBtnDiv.style.cursor = "pointer"
+                        addBtnDiv.addEventListener("click", () => {
+                            addProdToCart(image,name,model,rating,price,save,was)
+                        });
+
+
+                            let addCartLogo = document.createElement("div")
+                            addCartLogo.innerHTML = `<span class="material-icons-outlined" id="cart">
+                                                        shopping_cart
+                                                        </span>`
+
+                            let addCartText = document.createElement("div");
+                            addCartText.textContent = "Add to Cart";
+                            addCartText.style.fontSize = ".85vw"
+                            addCartText.style.fontWeight = "600"
+                            addCartText.style.paddingTop = "3%"
+                            
+
+
+                        addBtnIDiv.append(addCartLogo,addCartText)
+
+                addBtnDiv.append(addBtnIDiv)
+
+
+            itDiv.append(priceDiv, savePDiv, freeDiv, addBtnDiv);
 
 
         tDiv.append(itDiv);
@@ -488,3 +560,38 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
 appProd.append(mainDiv);
 
 })
+
+
+//////////////
+
+
+// addProdToCart=>
+
+function addProdToCart(image, name, model, rating, price, save, was){
+    // alert()
+
+    // console.log(name,price);
+
+    if(localStorage.getItem("Cart") === null){
+        localStorage.setItem("Cart",JSON.stringify([]))
+    }
+
+    var obj = {
+        image:image,
+        name:name,
+        model:model,
+        rating:rating,
+        price:price,
+        save:save,
+        was:was
+    }
+
+    let cartArr = JSON.parse(localStorage.getItem("Cart"));
+
+    cartArr.push(obj);
+
+    localStorage.setItem("Cart",JSON.stringify(cartArr));
+
+    
+}
+
