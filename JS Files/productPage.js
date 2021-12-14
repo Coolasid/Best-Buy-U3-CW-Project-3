@@ -224,11 +224,15 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
             imgDiv.style.width = "80%"
             imgDiv.style.height = "66%"
             imgDiv.style.margin = "auto";
+            imgDiv.addEventListener("click",()=>{
+                goToProdDescPage(image, name, model, rating, price, save, was)
+            })
 
                 let img = document.createElement("img");
                 img.src = image;
                 img.style.width = "100%"
                 img.style.height = "100%"
+                img.style.cursor = "pointer";
 
             imgDiv.append(img);
 
@@ -255,6 +259,9 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
                 let nameDiv = document.createElement("div");
                 nameDiv.textContent = name;
                 nameDiv.style.fontSize = ".79vw"
+                nameDiv.addEventListener("click", () => {
+                    goToProdDescPage(image, name, model, rating, price, save, was)
+                })
                 
                 let modelDiv = document.createElement("div");
                 modelDiv.style.margin = "1.5% 0 0 0"
@@ -593,5 +600,38 @@ function addProdToCart(image, name, model, rating, price, save, was){
     localStorage.setItem("Cart",JSON.stringify(cartArr));
 
     
+}
+
+
+//adding & go To prodDescPage=>
+
+function goToProdDescPage(image, name, model, rating, price, save, was){
+
+    // alert();
+
+    if(localStorage.getItem("prodDesc") === null ){
+        localStorage.setItem("prodDesc" , JSON.stringify([]));
+    }
+
+    localStorage.setItem("prodDesc", JSON.stringify([]));
+
+    var obj = {
+        image: image,
+        name: name,
+        model: model,
+        rating: rating,
+        price: price,
+        save: save,
+        was: was
+    }
+
+    let prodDesc = JSON.parse(localStorage.getItem("prodDesc"));
+
+    prodDesc.push(obj);
+
+    localStorage.setItem("prodDesc", JSON.stringify(prodDesc));
+
+    window.location.href = "productDescPage.html";
+
 }
 
