@@ -190,3 +190,68 @@ function openSignUp() {
 
 
 // naveBar
+
+
+//access product Details form local Storage=>
+
+let productArr = JSON.parse(localStorage.getItem("prodDesc"));
+
+productArr.forEach((prod)=>{
+    // console.log(prod.name)
+
+    let Name = prod.name;
+
+    let timelineName = document.getElementById("name");
+    timelineName.textContent = Name;
+
+
+    //for Brand Name
+    let brandName = "";
+
+    for(var i = 0; i < Name.length; i++){
+        if(Name[i] != " "){
+            brandName += Name[i];
+        }else{
+            break;
+        }
+
+    }
+
+    // console.log(brandName);
+
+    let brndN = document.getElementById("brandNmDiv");
+    brndN.textContent = brandName;
+
+    
+
+
+    let productNm = document.getElementById("prodName");
+    productNm.textContent = Name;
+
+    let cTitle = document.getElementById("title");
+    cTitle.textContent = Name;
+
+    let modelN = document.getElementById("modelNo");
+    modelN.textContent = prod.model;
+    
+    let Rating = document.getElementById("rat");
+    Rating.textContent = prod.rating
+
+    let iDiv = document.getElementById("iDiv");
+        let img = document.createElement("img");
+        img.src = prod.image;
+        img.style.width = "75%"
+
+    iDiv.append(img);
+
+
+    let pr = document.getElementById("priceDiv");
+    pr.textContent= "$"+ prod.price;
+
+    let sa = document.getElementById("sav");
+    sa.textContent = "Save $" + prod.save;
+
+    let Was = document.getElementById("Was");
+    Was.textContent = "Was $" + prod.was;
+
+})
