@@ -279,8 +279,20 @@ productArr.forEach((prod)=>{
         addProdToCart(prod)
     })
 
+
+    let Oprice = "";
+
+    let p = prod.price;
+    // console.log(p)
+    for(var i = 0; i < p.length; i++){
+        if(p[i] != ","){
+            Oprice += p[i]
+        }
+    }
+
+    console.log(Oprice);
     let inst = document.getElementById("I");
-    inst.textContent = (prod.price/18).toFixed(2)
+    inst.textContent = (Oprice/18).toFixed(2)
 
 })
 

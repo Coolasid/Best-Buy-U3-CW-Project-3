@@ -709,7 +709,7 @@ function addTvData(){
 var laptopDataBase = [
 
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6461/6461977_sd.jpg;maxHeight=300;maxWidth=450",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Lenovo Ideapad 3 15.6 FHD Touch Screen Laptop - Intel Core i5 11th Gen - 12GB Memory - 256GB SSD - Arctic Grey",
         model: "70UP8070PUA",
         rating: "4.9",
@@ -739,7 +739,7 @@ var laptopDataBase = [
     },
 
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455181_sd.jpg;maxHeight=300;maxWidth=450",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
         model: "KD43X80J",
         rating: "4.8",
@@ -748,7 +748,7 @@ var laptopDataBase = [
         was: "599.99"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465896_sd.jpg;maxHeight=300;maxWidth=450",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462558_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - ENVY 2-in-1 13 Touch- Screen Laptop - Intel Evo Platform Core i5 - 8GB Memory - 256GB SSD - Pale Gold",
         model: "UN65TU7000FXZA",
         rating: "4.8",
@@ -757,7 +757,7 @@ var laptopDataBase = [
         was: "649.99"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465335_sd.jpg;maxHeight=300;maxWidth=450",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6432/6432549_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - Chromebase 21.5 Touch- Screen All - In - One - Intel Pentium Gold - 4GB Memory - 64GB eMMC - Snowflake White",
         model: " NS-32DF310NA19",
         rating: "4.7",
@@ -766,7 +766,7 @@ var laptopDataBase = [
         was: "199.99"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5721/5721812_sd.jpg;maxHeight=300;maxWidth=450",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6432/6432549_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Apple - 21.5 iMac® with Retina 4K display - Intel Core i3(3.6GHz) - 8GB Memory - 256GB SSD - Silver",
         model: "OLED65C1PUB",
         rating: "4.9",
@@ -784,7 +784,7 @@ var laptopDataBase = [
         was: "569"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6458/6458047_sd.jpg;maxHeight=300;maxWidth=450",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6436/6436222_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - 14 2-In - 1 Touchscreen Chromebook - Intel Core i3 - 8GB Memory - 128GB SSD - Mineral Silver",
         model: "UN40N5200AFXZA",
         rating: "4.9",
