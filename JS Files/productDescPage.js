@@ -254,4 +254,23 @@ productArr.forEach((prod)=>{
     let Was = document.getElementById("Was");
     Was.textContent = "Was $" + prod.was;
 
+
+    tvA = ["LG", "Insignia™", "Samsung", "Hisense", "Sony","TCL"]
+
+    for(var i = 0; i < tvA.length; i++){
+        if (tvA[i] == brandName){
+            let dis = document.getElementById("series");
+            dis.style.display = "block";
+        }
+    }
+
+    lapA = ["Lenovo", "ASUS", "HP", "Apple", "Acer", "Geo", "Dell","Microsoft"]
+
+    for(var i = 0; i< lapA.length; i++){
+        if(lapA[i] == brandName){
+            let ant = document.getElementById("antiV");
+            ant.style.display = "block";
+        }
+    }
+
 })

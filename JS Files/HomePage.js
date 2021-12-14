@@ -547,117 +547,117 @@ var TvDataBase = [
         name: "LG - 65 Class C1 Series OLED 4K UHD Smart webOS TV",
         model: "OLED65C1PUB",
         rating: "4.9",
-        price: "1,799.99",
+        price: "1,799",
         save: "300",
-        was: "2,099.99"
+        was: "2,099"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452997_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 50 Class 8000 Series LED 4K UHD Smart Tizen TV",
         model: "UN50AU8000FXZA",
         rating: "4.9",
-        price: "479.99",
+        price: "479",
         save: "90",
-        was: "569.99"
+        was: "569"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360291_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 40 Class 5 Series LED Full HD Smart Tizen TV",
         model: "UN40N5200AFXZA",
         rating: "4.9",
-        price: "549.99",
+        price: "549",
         save: "80",
-        was: "629.99"
+        was: "629"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6476/6476896_sd.jpg;maxHeight=300;maxWidth=450",
         name: "LG - 70 Class NanoCell 75 Series LED 4K UHD Smart webOS TV",
         model: "70NANO75UPA",
         rating: "4.8",
-        price: "899.99",
+        price: "899",
         save: "300",
-        was: "1,199.99"
+        was: "1,199"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6484/6484318_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Hisense - 120 L9 Series TriChroma Laser TV with ALR Screen - Black",
         model: "120L9G-CINE120A",
         rating: "4.9",
-        price: "4,999.99",
+        price: "4,999",
         save: "1000",
-        was: "5,999.99"
+        was: "5,999"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455218_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 65 Class BRAVIA XR A80J Series OLED 4K UHD Smart Google TV",
         model: "XR65A80J",
         rating: "4.9",
-        price: "1,999.99",
+        price: "1,999",
         save: "300",
-        was: "2,299.99"
+        was: "2,299"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6280/6280538_sd.jpg;maxHeight=300;maxWidth=450",
         name: "TCL - 32 Class 3-Series LED Full HD Smart Roku TV",
         model: "32S327",
         rating: "4.9",
-        price: "199.99",
+        price: "199",
         save: "20",
-        was: "219.99"
+        was: "219"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453207_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 75 Class X85J Series LED 4K UHD Smart Google TV",
         model: "KD75X85J",
         rating: "4.9",
-        price: "1,199.99",
+        price: "1,199",
         save: "400",
-        was: "1,599.99"
+        was: "1,599"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465202_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 32 Class Q60A Series QLED 4K UHD Smart Tizen TV",
         model: "QN32Q60AAFXZA",
         rating: "4.9",
-        price: "399.99",
+        price: "399",
         save: "100",
-        was: "499.99"
+        was: "499"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451519_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 82 Class Q60T Series LED 4K UHD Smart Tizen TV",
         model: "QN82Q60TAFXZA",
         rating: "4.9",
-        price: "1,499.99",
+        price: "1,499",
         save: "500",
-        was: "1,999.99"
+        was: "1,999"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455216_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 75 Class BRAVIA XR X90J Series LED 4K UHD Smart Google TV",
         model: "XR75X90J",
         rating: "4.9",
-        price: "1,599.99",
+        price: "1,599",
         save: "500",
-        was: "2,099.99"
+        was: "2,099"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451476_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 65 Class Q70A Series QLED 4K UHD Smart Tizen TV",
         model: "QN65Q70AAFXZA",
         rating: "4.9",
-        price: "1,099.99",
+        price: "1,099",
         save: "200",
-        was: "1,299.99"
+        was: "1,299"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451481_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 55 Class Q80A Series QLED 4K UHD Smart Tizen TV",
         model: "QN55Q80AAFXZA",
         rating: "4.9",
-        price: "999.99",
+        price: "999",
         save: "200",
-        was: "1,199.99"
+        was: "1,199"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452319_sd.jpg;maxHeight=300;maxWidth=450",
@@ -666,7 +666,7 @@ var TvDataBase = [
         rating: "4.9",
         price: "1,599.99",
         save: "300",
-        was: "1,899.99"
+        was: "1,899"
     },
 
 
@@ -770,126 +770,126 @@ var laptopDataBase = [
         name: "Apple - 21.5 iMac® with Retina 4K display - Intel Core i3(3.6GHz) - 8GB Memory - 256GB SSD - Silver",
         model: "OLED65C1PUB",
         rating: "4.9",
-        price: "1,799.99",
+        price: "1,799",
         save: "300",
-        was: "2,099.99"
+        was: "2,099"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451077_sd.jpg;maxHeight=300;maxWidth=450",
         name: "LG 29” UltraWide Full HD HDR Monitor with FreeSync",
         model: "UN50AU8000FXZA",
         rating: "4.9",
-        price: "479.99",
+        price: "479",
         save: "90",
-        was: "569.99"
+        was: "569"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6458/6458047_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - 14 2-In - 1 Touchscreen Chromebook - Intel Core i3 - 8GB Memory - 128GB SSD - Mineral Silver",
         model: "UN40N5200AFXZA",
         rating: "4.9",
-        price: "549.99",
+        price: "549",
         save: "80",
-        was: "629.99"
+        was: "629"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426710_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Lenovo - Yoga 7i 2-in-1 14 Touch Screen Laptop - Intel Evo Platform Core i5 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
         model: "70NANO75UPA",
         rating: "4.8",
-        price: "899.99",
+        price: "899",
         save: "300",
-        was: "1,199.99"
+        was: "1,199"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455180_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 7 - 16GB Memory - 512GB SSD - Abyss Blue with Fabric Cover",
         model: "120L9G-CINE120A",
         rating: "4.9",
-        price: "4,999.99",
+        price: "4,999",
         save: "1000",
-        was: "5,999.99"
+        was: "5,999"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447818_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Acer  Chromebook Spin 514  Convertible - 14” Full HD Touch  Ryzen 3 3250C 4GB DDR4 Memory  64GB eMMC Flash Memory",
         model: "XR65A80J",
         rating: "4.9",
-        price: "1,999.99",
+        price: "1,999",
         save: "300",
-        was: "2,299.99"
+        was: "2,299"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6454/6454254_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Lenovo - Flex 5 13 2-in -1 Chromebook - Pentium 7505 - 4GB Memory - 32GB eMMC - Abyss Blue",
         model: "32S327",
         rating: "4.9",
-        price: "199.99",
+        price: "199",
         save: "20",
-        was: "219.99"
+        was: "219"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462556_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Geo - GeoBook 120 Minecraft Edition 12.5-inch HD Laptop - Intel Celeron Quad Core Processor - 4GB Memory - 64GB eMMC - Minecraft Green",
         model: "KD75X85J",
         rating: "4.9",
-        price: "1,199.99",
+        price: "1,199",
         save: "400",
-        was: "1,599.99"
+        was: "1,599"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462558_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Geo - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Blue",
         model: "QN32Q60AAFXZA",
         rating: "4.9",
-        price: "399.99",
+        price: "399",
         save: "100",
-        was: "499.99"
+        was: "499"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462557_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Geo - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Purple",
         model: "QN82Q60TAFXZA",
         rating: "4.9",
-        price: "1,499.99",
+        price: "1,499",
         save: "500",
-        was: "1,999.99"
+        was: "1,999"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426713_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Lenovo - Yoga 7i 2-in-1 15.6 HDR Touch Screen Laptop - Intel Evo Platform Core i7 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
         model: "XR75X90J",
         rating: "4.9",
-        price: "1,599.99",
+        price: "1,599",
         save: "500",
-        was: "2,099.99"
+        was: "2,099"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6432/6432549_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Dell - Inspiron 7000 2-in-1 17 QHD+ Touch - Screen Laptop - Intel Core i7 - NVIDIA - 16GB Memory - 512GB SSD + 32GB Optane - Silver",
         model: "QN65Q70AAFXZA",
         rating: "4.9",
-        price: "1,099.99",
+        price: "1,099",
         save: "200",
-        was: "1,299.99"
+        was: "1,299"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Microsoft - Surface Laptop 4 - 13.5” Touch-Screen  AMD Ryzen™ 5 Surface® Edition  8GB Memory - 128GB SSD (Latest Model) - Platinum",
         model: "QN55Q80AAFXZA",
         rating: "4.9",
-        price: "999.99",
+        price: "999",
         save: "200",
-        was: "1,199.99"
+        was: "1,199"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6436/6436222_sd.jpg;maxHeight=300;maxWidth=450",
         name: "ASUS - ZenBook Flip 15 Q528EH 15.6 Touch- Screen Laptop - Intel Core i7 - 16GB Memory - GTX1650 Max - Q - 512GB SSD - Grey",
         model: "QN65QN85AAFXZA",
         rating: "4.9",
-        price: "1,599.99",
+        price: "1,599",
         save: "300",
-        was: "1,899.99"
+        was: "1,899"
     },
 
 
@@ -928,187 +928,187 @@ function addLaptopData(){
 var gameDataBase = [
 
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468545_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Just Dance 2022 - Nintendo Switch",
-        model: "70UP8070PUA",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408476_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Microsoft - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 4GB - 64GB SSD - Device Only - Platinum",
+        model: "STV-00001",
         rating: "4.9",
-        price: "24.99",
-        save: "25",
-        was: "49.99"
+        price: "299.99",
+        save: "100",
+        was: "399.99"
     },
 
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465432_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Madden NFL 22 Standard Edition - PlayStation 5",
-        model: "NS-55F501NA22",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408475_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Microsoft - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 8GB - 128GB SSD - Device Only - Platinum",
+        model: "STQ-00001",
         rating: "4.5",
-        price: "39.99",
-        save: "30",
-        was: "69.99"
+        price: "399.99",
+        save: "150",
+        was: "549.99"
     },
 
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471345_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "FIFA 22 Standard Edition - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6482/6482155_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Microsoft - Surface Pro 7+ - 12.3” Touch Screen – Intel Core i5 – 8GB Memory – 128GB SSD with Black Type Cover (Latest Model) - Platinum",
         model: " UN50TU7000FXZA",
         rating: "4.7",
-        price: "39.99",
-        save: "30",
-        was: "69.99"
+        price: "799.99",
+        save: "230",
+        was: "1,029"
     },
 
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465742_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Battlefield 2042 - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455181_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
         model: "KD43X80J",
         rating: "4.8",
-        price: "39.99",
-        save: "30",
-        was: "69.99"
+        price: "449.99",
+        save: "150",
+        was: "599.99"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401722_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Ghost of Tsushima Director's Cut - PlayStation 4",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465896_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "HP - ENVY 2-in-1 13 Touch- Screen Laptop - Intel Evo Platform Core i5 - 8GB Memory - 256GB SSD - Pale Gold",
         model: "UN65TU7000FXZA",
         rating: "4.8",
-        price: "39.99",
-        save: "20",
-        was: "59.99"
+        price: "499.99",
+        save: "150",
+        was: "649.99"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6441/6441960cv11d.jpg;maxHeight=300;maxWidth=450",
-        name: "DEATHLOOP Standard Edition - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465335_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "HP - Chromebase 21.5 Touch- Screen All - In - One - Intel Pentium Gold - 4GB Memory - 64GB eMMC - Snowflake White",
         model: " NS-32DF310NA19",
         rating: "4.7",
-        price: "39.99",
-        save: "20",
-        was: "59.99"
+        price: "149.99",
+        save: "50",
+        was: "199.99"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6471/6471713_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "NBA 2K22 Standard Edition - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5721/5721812_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Apple - 21.5 iMac® with Retina 4K display - Intel Core i3(3.6GHz) - 8GB Memory - 256GB SSD - Silver",
         model: "OLED65C1PUB",
         rating: "4.9",
-        price: "34.99",
-        save: "35",
-        was: "69.99"
+        price: "1,799",
+        save: "300",
+        was: "2,099"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6311/6311892_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "New Super Mario Bros. U Deluxe - Nintendo SwitchV",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451077_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "LG 29” UltraWide Full HD HDR Monitor with FreeSync",
         model: "UN50AU8000FXZA",
         rating: "4.9",
-        price: "39.99",
-        save: "20",
-        was: "59.99"
+        price: "479",
+        save: "90",
+        was: "569"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430159_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Marvel's Spider-Man: Miles Morales Ultimate Launch Edition - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6458/6458047_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "HP - 14 2-In - 1 Touchscreen Chromebook - Intel Core i3 - 8GB Memory - 128GB SSD - Mineral Silver",
         model: "UN40N5200AFXZA",
         rating: "4.9",
-        price: "49.99",
-        save: "20",
-        was: "69.99"
+        price: "549",
+        save: "80",
+        was: "629"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6255/6255311_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Gears 5 Standard Edition - Xbox One, Xbox Series X",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426710_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Lenovo - Yoga 7i 2-in-1 14 Touch Screen Laptop - Intel Evo Platform Core i5 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
         model: "70NANO75UPA",
         rating: "4.8",
-        price: "4.99",
-        save: "35",
-        was: "39.99"
+        price: "899",
+        save: "300",
+        was: "1,199"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6444/6444455_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "It Takes Two - PlayStation 4, PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455180_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 7 - 16GB Memory - 512GB SSD - Abyss Blue with Fabric Cover",
         model: "120L9G-CINE120A",
         rating: "4.9",
-        price: "19.99",
-        save: "20",
-        was: "39.99"
+        price: "4,999",
+        save: "1000",
+        was: "5,999"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6255/6255379_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Luigi's Mansion 3 - Nintendo Switch",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447818_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Acer  Chromebook Spin 514  Convertible - 14” Full HD Touch  Ryzen 3 3250C 4GB DDR4 Memory  64GB eMMC Flash Memory",
         model: "XR65A80J",
         rating: "4.9",
-        price: "39.99",
-        save: "20",
-        was: "59.99"
+        price: "1,999",
+        save: "300",
+        was: "2,299"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6352/6352166_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Mario & Sonic at the Olympic Games Tokyo 2020 - Nintendo Switch",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6454/6454254_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Lenovo - Flex 5 13 2-in -1 Chromebook - Pentium 7505 - 4GB Memory - 32GB eMMC - Abyss Blue",
         model: "32S327",
         rating: "4.9",
-        price: "29.99",
-        save: "30",
-        was: "59.99"
+        price: "199",
+        save: "20",
+        was: "219"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6414/6414017cv11d.jpg;maxHeight=300;maxWidth=450",
-        name: "Back 4 Blood Standard Edition - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462556_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Geo - GeoBook 120 Minecraft Edition 12.5-inch HD Laptop - Intel Celeron Quad Core Processor - 4GB Memory - 64GB eMMC - Minecraft Green",
         model: "KD75X85J",
         rating: "4.9",
-        price: "29.99",
-        save: "30",
-        was: "59.99"
+        price: "1,199",
+        save: "400",
+        was: "1,599"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6425/6425183_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Sonic Mania + Team Sonic Racing - Nintendo Switch",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462558_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Geo - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Blue",
         model: "QN32Q60AAFXZA",
         rating: "4.9",
-        price: "24.99",
-        save: "15",
-        was: "39.99"
+        price: "399",
+        save: "100",
+        was: "499"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6468/6468675_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Marvel's Guardians of the Galaxy - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462557_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Geo - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Purple",
         model: "QN82Q60TAFXZA",
         rating: "4.9",
-        price: "39.99",
-        save: "200",
-        was: "59.99"
+        price: "1,499",
+        save: "500",
+        was: "1,999"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455145_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Marvel's Avengers - PlayStation 5",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426713_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Lenovo - Yoga 7i 2-in-1 15.6 HDR Touch Screen Laptop - Intel Evo Platform Core i7 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
         model: "XR75X90J",
         rating: "4.9",
-        price: "14.99",
-        save: "25",
-        was: "39.99"
+        price: "1,599",
+        save: "500",
+        was: "2,099"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6255/6255310_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Forza Horizon 4 Standard Edition - Xbox One, Xbox Series X",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6432/6432549_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Dell - Inspiron 7000 2-in-1 17 QHD+ Touch - Screen Laptop - Intel Core i7 - NVIDIA - 16GB Memory - 512GB SSD + 32GB Optane - Silver",
         model: "QN65Q70AAFXZA",
         rating: "4.9",
-        price: "14.99",
-        save: "45",
-        was: "59.99"
+        price: "1,099",
+        save: "200",
+        was: "1,299"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6474/6474692_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "NHL 22 - Xbox One",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "Microsoft - Surface Laptop 4 - 13.5” Touch-Screen  AMD Ryzen™ 5 Surface® Edition  8GB Memory - 128GB SSD (Latest Model) - Platinum",
         model: "QN55Q80AAFXZA",
         rating: "4.9",
-        price: "29.99",
-        save: "30",
-        was: "59.99"
+        price: "999",
+        save: "200",
+        was: "1,199"
     },
     {
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6430/6430152_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 65 Class QN85A Series Neo QLED 4K UHD Smart Tizen TV",
+        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6436/6436222_sd.jpg;maxHeight=300;maxWidth=450",
+        name: "ASUS - ZenBook Flip 15 Q528EH 15.6 Touch- Screen Laptop - Intel Core i7 - 16GB Memory - GTX1650 Max - Q - 512GB SSD - Grey",
         model: "QN65QN85AAFXZA",
         rating: "4.9",
-        price: "39.99",
-        save: "30",
-        was: "69.99"
+        price: "1,599",
+        save: "300",
+        was: "1,899"
     },
 
 

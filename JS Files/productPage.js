@@ -524,6 +524,9 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
                 // addBtnDiv.style.paddingTop = "1.5%"
                 addBtnDiv.style.boxSizing = "borderBox";
                 addBtnDiv.style.backgroundColor = "rgb(255,224,0)"
+                // addBtnDiv.addEventListener("mouseover",()=>{
+                //     addBtnDiv.style.backgroundColor = "rgb(255,224,0)"
+                // })
 
 
                         let addBtnIDiv = document.createElement("div");

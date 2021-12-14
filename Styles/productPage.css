@@ -527,7 +527,7 @@ div{
 #sortDiv{
     border: 1px solid rgb(197,203,213);
     /* overflow: scroll; */
-    height: 620px;
+    height: 650px;
     /* position: fixed; */
     /* scroll-margin-block-start: 20px; */
 }
@@ -797,6 +797,10 @@ color: #1D252C;
     cursor: pointer;
 }
 
+#appProducts>div>div:nth-child(3)>div>div:nth-child(4):hover{
+    background-color: rgb(248, 231, 98);
+}
+
 #savelogo{
     font-size: 1.4vw;
     cursor: pointer;
@@ -853,6 +857,8 @@ color: #1D252C;
     font-weight: 600;
     margin-top: 10%;
 }
+
+
 
 div{
     /* border: .2px solid black; */

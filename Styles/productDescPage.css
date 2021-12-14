@@ -525,11 +525,13 @@ color: #0046BE;
     color: rgb(4,87,200);
     font-weight: 600;
     font-size: 1.1vw;
+    /* width: 50%; */
 }
 
 #prodName{
     font-size: 1.2vw;
     margin-top: .5%;
+    width: 90%;
 }
 
 #modelDiv{
@@ -745,6 +747,96 @@ color: #0046BE;
     font-size: .7vw;
     font-weight: 600;
 }
+
+.line{
+    margin-top: 10%;
+    border-bottom: .2px solid rgb(197,203,213);
+}
+
+#series{
+    display: none;
+
+    margin-top: 8%;
+
+}
+
+#sT{
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+#seleSeries{
+    margin-top: 3%;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(197,203,213);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 0 0 0 3%;
+    color: rgb(4,87,211);
+}
+
+
+#sZ{
+    font-weight: 600;
+    font-size: 1vw;
+    margin-top: 8%;
+}
+
+#inStore{
+    font-size: .8vw;
+    margin-top: 6%;
+}
+
+
+.line1{
+    margin-top: 6%;
+    border-bottom: .2px solid rgb(197,203,213);
+}
+
+#antiV{
+      display: none;
+
+    margin-top: 8%;
+}
+
+#likeD{
+    font-weight: 600;
+    font-size: .95vw;
+}
+#antiC{
+    margin-top: 6%;
+    display: grid;
+    grid-template-columns: 10% 20% 50% 15% ;
+}
+#inpA{
+    margin-top: 90%;
+    margin-left: 20%;
+}
+
+#antiImg{
+    width: 80%;
+    height: 80%;
+    margin-top: 8%;
+}
+.antImg{
+    width: 100%;
+    height: 100%;
+}
+
+#antiT{
+    font-size: .85vw;
+
+}
+
+#AntiP{
+    font-size: .8vw;
+    margin-top: 47%;
+    margin-left: 30%;
+}
+
+
+
 
 div{
     /* border: 1px solid black; */
