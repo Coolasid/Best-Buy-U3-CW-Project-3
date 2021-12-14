@@ -908,12 +908,16 @@ cursor: pointer;
     box-sizing: border-box;
     padding-bottom: 4%;
     
-    border-bottom: 1px solid rgb(197,203,213);
+    
     font-size: 1.2vw;
     font-weight: 600;
     cursor: pointer;
     display: grid;
     grid-template-columns: 80% 20%;
+}
+
+#de{
+border-bottom: 1px solid rgb(197,203,213);
 }
 #peopleBuy>div:nth-child(1){
     padding-top: 1.2%;
@@ -952,8 +956,84 @@ cursor: pointer;
     
 }
 
+.singleDiv{
+    margin: 1% 0 0 0;
+    height: 491.5px;
+   
+}
 
+.eachDiv{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0 0 0 2%;
+    height: 130px;
+    border-bottom: 1px solid rgb(197,203,213);
+    padding-bottom: 5%;
+}
 
+.eachDiv1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0 0 0 2%;
+    height: 130px;
+    border-bottom: 1px solid rgb(197,203,213);
+    padding-bottom: 5%;
+    margin-top: 6%;
+}
+
+.imgD{
+    width: 80%;
+    height: 50%;
+}
+.imgC{
+    width: 100%;
+    height: 100%;
+}
+
+.nameT{
+    font-size: .85vw;
+    color: rgb(0,70,190);
+}
+.nameT:hover{
+    color: rgb(0,30,115);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rat{
+    font-size: .8vw;
+    margin-top: 5%;
+}
+.bb{
+    color: rgb(0,30,115);
+    font-weight: 600;
+}
+
+.pricC{
+    margin-top: 6%;
+    font-size: .88vw;
+    padding-bottom: 5%;
+}
+
+.comp{
+    display: grid;
+    grid-template-columns: 10% 40% 10% 20%;
+    font-size: .85vw;
+    /* margin-top: 7%; */
+}
+
+.comp{
+    box-sizing: border-box;
+    padding-top: 2%;
+}
+
+#bookD{
+    font-size: 1.2vw;
+}
+.saveB{
+    box-sizing: border-box;
+    padding-top: 5%;
+}
 div{
     /* border: 1px solid black; */
 }
