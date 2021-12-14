@@ -273,4 +273,72 @@ productArr.forEach((prod)=>{
         }
     }
 
+
+    let cart = document.getElementById("addCartBtn");
+    cart.addEventListener("click",()=>{
+        addProdToCart(prod)
+    })
+
+    let inst = document.getElementById("I");
+    inst.textContent = (prod.price/18).toFixed(2)
+
+})
+
+
+
+// addToCart=>
+
+function addProdToCart(prod) {
+    // alert()
+
+    // console.log(name,price);
+
+    if (localStorage.getItem("Cart") === null) {
+        localStorage.setItem("Cart", JSON.stringify([]))
+    }
+
+    var obj = {
+        image: prod.image,
+        name: prod.name,
+        model: prod.model,
+        rating: prod.rating,
+        price: prod.price,
+        save: prod.save,
+        was: prod.was
+    }
+
+    let cartArr = JSON.parse(localStorage.getItem("Cart"));
+
+    cartArr.push(obj);
+
+    localStorage.setItem("Cart", JSON.stringify(cartArr));
+
+    alert("Product is added to Cart")
+}
+
+
+
+// summary=>
+
+var n = 0;
+let getDown = document.getElementById("peopleBuy");
+getDown.addEventListener("click",()=>{
+
+    // alert()
+
+    if(n % 2 == 0){
+        let ex = document.getElementById("exp");
+
+        ex.textContent = "expand_less";
+
+    }
+
+    
+    if(n % 2 == 1){
+        let ex = document.getElementById("exp");
+
+        ex.textContent = "expand_more";
+    }
+    
+    n++;
 })

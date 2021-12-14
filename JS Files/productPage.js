@@ -601,7 +601,7 @@ function addProdToCart(image, name, model, rating, price, save, was){
     cartArr.push(obj);
 
     localStorage.setItem("Cart",JSON.stringify(cartArr));
-
+    alert("Product is added to Cart")
     
 }
 
