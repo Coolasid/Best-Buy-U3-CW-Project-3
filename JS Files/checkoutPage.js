@@ -1,5 +1,10 @@
 // Linking Pages=>
 
+let goToSuccessP = document.getElementById("placeODiv");
+goToSuccessP.addEventListener("click",()=>{
+    window.location.href = "success.html";
+})
+
 let returnToHome = document.getElementById("return");
 returnToHome.addEventListener("click", () => {
     window.location.href = "HomePage.html"
