@@ -206,3 +206,248 @@ function openSignUp() {
 }
 
 // naveBar
+
+
+// appendingItems in Cart Page=>
+
+let cartArr = JSON.parse(localStorage.getItem("Cart"));
+
+let tPrice = 0;
+let tSPrice = 0;
+cartArr.forEach((prod)=>{
+
+    
+// updating OP=>
+    let toN = prod.was;
+    let opStr = ""
+    for(var i = 0; i < toN.length; i++){
+        if(toN[i] != ","){
+            if (toN[i] != "."){
+                opStr += toN[i];
+            }
+            
+        }
+        if(toN[i] == "."){
+            break;
+        }
+    }
+
+    // console.log(opStr);
+    tPrice += +opStr;
+
+///////
+
+//updating Saving=>
+
+
+    let savN = prod.save;
+    let sStr = ""
+
+    for(var i = 0; i < savN.length; i++){
+        if(savN[i] != ","){
+            if(savN[i] != "."){
+                sStr += savN[i];
+            }
+        }
+        if(savN[i] == "."){
+            break;
+        }
+    }
+
+    tSPrice += +sStr;
+
+    let allProd = document.getElementById("allProdDiv");
+
+        let Div = document.createElement("div");
+        Div.style.border = "1px solid  rgb(224,230,239);"
+        // Div.style.height = "100px"
+        Div.style.backgroundColor = "white"
+        Div.style.borderRadius = "5px"
+
+            let inDiv = document.createElement("div");
+            inDiv.style.margin = "0 2% 0 4%"
+            inDiv.style.paddingTop = "3%"
+            inDiv.style.boxSizing = "borderBox"
+            inDiv.style.display = "grid";
+            inDiv.style.height = "130px"
+            inDiv.style.gridTemplateColumns = "8% 25% 30% 20% 15%"
+
+                let imgDiv = document.createElement("div");
+                    let iDiv = document.createElement("div");
+                    iDiv.style.height = "25%"
+                    iDiv.style.width = "70%"
+                    iDiv.style.marginTop = "5%"
+
+                        let img = document.createElement("img");
+                        img.src = prod.image;
+                        img.style.width = "100%"
+                        img.style.height = "100%"
+
+                    iDiv.append(img);
+
+                imgDiv.append(iDiv);
+
+                let nameDiv = document.createElement("div");
+                nameDiv.textContent = prod.name
+                nameDiv.style.fontSize = ".8vw"
+                
+
+                let pickUpDiv = document.createElement("div");
+
+                    let pA = document.createElement("div");
+                    pA.style.display = "grid";
+                    pA.style.gridTemplateColumns = "10% 90%"
+                    pA.style.margin = "0 0 0 15%"
+
+                        let rad = document.createElement("input");
+                        rad.type = "radio";
+
+                        let pickT = document.createElement("div");
+                        pickT.innerHTML = `<span>Pickup at <span id="ai">Aiea</span> </span>`
+                        pickT.style.fontSize = ".8vw"
+                        pickT.style.marginTop = "1%"
+                        pickT.style.fontWeight = "600"
+
+                    pA.append(rad,pickT)
+
+
+                    let redDiv = document.createElement("div");
+                    redDiv.innerHTML = `<span>Ready for pickup <b> Today </b></span>`
+                    redDiv.style.fontSize = ".7vw"
+                    redDiv.style.margin = "1% 0 0 24%"
+
+                    let eleDiv = document.createElement("div");
+                    eleDiv.innerHTML = `Eligible for curbside pickup`
+                    eleDiv.style.fontSize = ".7vw"
+                    eleDiv.style.margin = "1% 0 0 24%"
+
+
+
+                    let shipD = document.createElement("div");
+                    shipD.style.display = "grid";
+                    shipD.style.gridTemplateColumns = "10% 90%"
+                    shipD.style.margin = "8% 0 0 15%"
+
+                        let rad1 = document.createElement("input");
+                        rad1.type = "radio";
+
+                        let shipT = document.createElement("div");
+                        shipT.innerHTML = `<span>Shipping to <span id="ai">96939</span> </span>`
+                        shipT.style.fontSize = ".8vw"
+                        shipT.style.marginTop = "1%"
+                        shipT.style.fontWeight = "600"
+
+                    shipD.append(rad1, shipT)
+
+                    let ship = document.createElement("div");
+                    ship.innerHTML = `Unavailable in this area`
+                    ship.style.fontSize = ".7vw"
+                    ship.style.margin = "1% 0 0 24%"
+
+                pickUpDiv.append(pA, redDiv, eleDiv, shipD,ship)
+
+
+                let addDiv = document.createElement("div");
+
+                    let selDiv = document.createElement("select");
+                    selDiv.style.width = "37%"
+                    selDiv.style.height = "40px"
+                    selDiv.style.borderRadius = "5px"
+                    selDiv.style.margin = "0 0 0 45%"
+                    selDiv.style.outline = "none";
+                    selDiv.style.border = "1px solid rgb(0,70,190)"
+                    selDiv.style.fontSize = "1.1vw"
+
+                        let op1 = document.createElement("option")
+                        op1.textContent = "1"
+
+                        let op2 = document.createElement("option")
+                        op2.textContent = "2"
+
+                        let op3 = document.createElement("option")
+                        op3.textContent = "3"
+
+                        let op4 = document.createElement("option")
+                        op4.textContent = "4"
+
+                       
+
+                    selDiv.append(op1, op2, op3, op4);
+
+                    let remDiv = document.createElement("div");
+                    remDiv.style.fontSize = ".75vw"
+                    remDiv.textContent = "remove";
+                    remDiv.style.margin = "1% 0 0 53% "
+
+                    let saveDiv = document.createElement("div");
+                    saveDiv.style.fontSize = ".75vw"
+                    saveDiv.textContent = "save";
+                    saveDiv.style.margin = "1% 0 0 56% "
+
+
+                addDiv.append(selDiv,remDiv,saveDiv);
+
+
+                let priceDiv = document.createElement("div");
+
+                    let oPDiv = document.createElement("div");
+                    oPDiv.textContent = "$"+ prod.price;
+                    oPDiv.style.fontSize = ".95vw"
+                    oPDiv.style.fontWeight = "600"
+                    // oPDiv.style.margin = "0 0 0 60%"
+                    oPDiv.style.textAlign = "right"
+
+                    let svDiv = document.createElement("div");
+                    svDiv.textContent = "Save $" + prod.save
+                    svDiv.style.fontSize = ".7vw"
+                    svDiv.style.width = "45%"
+                    svDiv.style.height = "16.5px"
+                    svDiv.style.padding = "3% 0 0 0 "
+                    svDiv.style.boxSizing = "borderBox"
+                    svDiv.style.margin = "1% 0 0 55%"
+                    svDiv.style.textAlign = "center"
+                    svDiv.style.fontWeight = "600"
+                    svDiv.style.color = "white";
+                    svDiv.style.backgroundColor = "rgb(187,6,40)"
+
+                    let wasDiv = document.createElement("div");
+                    wasDiv.textContent = "Was $" + prod.was;
+                    wasDiv.style.fontSize = ".8vw"
+                    wasDiv.style.margin = "2% 0 0 0"
+                    wasDiv.style.textAlign = "right"
+                    
+
+                priceDiv.append(oPDiv, svDiv, wasDiv);
+
+
+
+
+
+            inDiv.append(imgDiv,nameDiv,pickUpDiv,addDiv,priceDiv);
+
+        Div.append(inDiv);
+
+
+        let empDiv = document.createElement("div");
+        empDiv.style.height = "30px"
+        empDiv.style.backgroundColor = "rgb(244,246,249)"
+
+    allProd.append(Div,empDiv);
+
+
+
+})
+
+
+let totalop = document.getElementById("totalOP");
+totalop.textContent = "$"+ tPrice;
+
+let totalS = document.getElementById("totalSav");
+totalS.textContent = "-$"+ tSPrice;
+
+
+// console.log(tPrice,tSPrice)
+
+let tp = tPrice - tSPrice + 41
+let totP = document.getElementById("totalP")
+totP.textContent = "$" + tp ;

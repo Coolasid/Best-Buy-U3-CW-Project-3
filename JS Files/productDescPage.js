@@ -195,6 +195,7 @@ function openSignUp() {
 //access product Details form local Storage=>
 
 let productArr = JSON.parse(localStorage.getItem("prodDesc"));
+// console.log(productArr);
 
 productArr.forEach((prod)=>{
     // console.log(prod.name)

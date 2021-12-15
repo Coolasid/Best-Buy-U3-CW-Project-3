@@ -203,7 +203,7 @@ function openSignUp() {
 
 let prodData = JSON.parse( localStorage.getItem("productData"));
 
-// console.log(prodData);
+console.log(prodData);
 
 let appProd = document.getElementById("appProducts");
 

@@ -217,42 +217,42 @@ var sliderArr1 = [
         img:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401049_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.5",
-        price: "$1,234.99"
+        price: "$1,234"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6331/6331591_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 55 Class A9G MASTER Series OLED 4K UHD Smart Android TV",
         rating: "4.7",
-        price: "$2,299.99"
+        price: "$2,299"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401199_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 55 Class A8H Series OLED 4K UHD Smart Android TV",
         rating: "5.0",
-        price: "$1,899.99"
+        price: "$1,899"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455215_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.8",
-        price: "$2,999.99"
+        price: "$2,999"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401206_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 65 Class X950H Series LED 4K UHD Smart Android TV",
         rating: "4.9",
-        price: "$1,424.99"
+        price: "$1,424"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6476/6476246cv21d.jpg;maxHeight=272;maxWidth=400",
         name: "Samsung - 70 Class TU6985 4K Crystal UHD Smart Tizen TV",
         rating: "4.5",
-        price: "$599.99"
+        price: "$599"
     },
 
     
@@ -269,42 +269,42 @@ let sliderArr2 = [
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6450/6450480_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.5",
-        price: "$1,234.99"
+        price: "$1,234"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6331/6331597_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 65 Class A9G MASTER Series OLED 4K UHD Smart Android TV",
         rating: "4.5",
-        price: "$2,999.99"
+        price: "$2,999"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6459/6459302_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.5",
-        price: "$1,234.99"
+        price: "$1,234"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455217_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 55 Class BRAVIA XR A80J Series OLED 4K UHD Smart Google TV",
         rating: "4.5",
-        price: "$1,699.99"
+        price: "$1,699"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401049_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.5",
-        price: "$1,234.99"
+        price: "$1,234"
     },
 
     {
         img: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401718_sd.jpg;maxHeight=272;maxWidth=400",
         name: "Samsung - 65 Class 8 Series LED 4K UHD Smart Tizen TV",
         rating: "4.9",
-        price: "$749.99"
+        price: "$749"
     },
 
   
@@ -504,9 +504,9 @@ var TvDataBase = [
         name:"LG - 70” Class UP8070 Series LED 4K UHD Smart webOS TV",
         model:"70UP8070PUA",
         rating:"4.9",
-        price:"749.99",
+        price:"749",
         save:"250",
-        was:"999.99"
+        was:"999"
     },
 
     {
@@ -514,9 +514,9 @@ var TvDataBase = [
         name: "Insignia™ - 55 Class F50 Series QLED 4K UHD Smart Fire TV",
         model: "NS-55F501NA22",
         rating: "4.5",
-        price: "399.99",
+        price: "399",
         save: "250",
-        was: "649.99"
+        was: "649"
     },
 
     {
@@ -524,9 +524,9 @@ var TvDataBase = [
         name: "Samsung - 50 Class 7 Series LED 4K UHD Smart Tizen TV",
         model: " UN50TU7000FXZA",
         rating: "4.7",
-        price: "379.99",
+        price: "379",
         save: "100",
-        was: "479.99"
+        was: "479"
     },
 
     {
@@ -534,27 +534,27 @@ var TvDataBase = [
         name: "Sony - 43 Class X80J Series LED 4K UHD Smart Google TV",
         model: "KD43X80J",
         rating: "4.8",
-        price: "449.99",
+        price: "449",
         save: "150",
-        was: "599.99"
+        was: "599"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401722_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 65 Class 7 Series LED 4K UHD Smart Tizen TV",
         model: "UN65TU7000FXZA",
         rating: "4.8",
-        price: "499.99",
+        price: "499",
         save: "150",
-        was: "649.99"
+        was: "649"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6247/6247254_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Insignia™ - 32 Class F20 Series LED HD Smart Fire TV",
         model: " NS-32DF310NA19",
         rating: "4.7",
-        price: "149.99",
+        price: "149",
         save: "50",
-        was: "199.99"
+        was: "199"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453312_sd.jpg;maxHeight=300;maxWidth=450",
@@ -678,7 +678,7 @@ var TvDataBase = [
         name: "Samsung - 65 Class QN85A Series Neo QLED 4K UHD Smart Tizen TV",
         model: "QN65QN85AAFXZA",
         rating: "4.9",
-        price: "1,599.99",
+        price: "1,599",
         save: "300",
         was: "1,899"
     },
@@ -727,9 +727,9 @@ var laptopDataBase = [
         name: "Lenovo Ideapad 3 15.6 FHD Touch Screen Laptop - Intel Core i5 11th Gen - 12GB Memory - 256GB SSD - Arctic Grey",
         model: "70UP8070PUA",
         rating: "4.9",
-        price: "749.99",
+        price: "749",
         save: "250",
-        was: "999.99"
+        was: "999"
     },
 
     {
@@ -737,9 +737,9 @@ var laptopDataBase = [
         name: "ASUS - 11.6 Chromebook - Intel Celeron - 4GB Memory - 32GB eMMC Flash Memory - Gray - Grey",
         model: "NS-55F501NA22",
         rating: "4.5",
-        price: "399.99",
+        price: "399",
         save: "250",
-        was: "649.99"
+        was: "649"
     },
 
     {
@@ -747,9 +747,9 @@ var laptopDataBase = [
         name: "Lenovo - Chromebook Duet - 10.1 - Tablet - 128GB - With Keyboard - Ice Blue + Iron Gray",
         model: " UN50TU7000FXZA",
         rating: "4.7",
-        price: "379.99",
+        price: "379",
         save: "100",
-        was: "479.99"
+        was: "479"
     },
 
     {
@@ -757,27 +757,27 @@ var laptopDataBase = [
         name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
         model: "KD43X80J",
         rating: "4.8",
-        price: "449.99",
+        price: "449",
         save: "150",
-        was: "599.99"
+        was: "599"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462558_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - ENVY 2-in-1 13 Touch- Screen Laptop - Intel Evo Platform Core i5 - 8GB Memory - 256GB SSD - Pale Gold",
         model: "UN65TU7000FXZA",
         rating: "4.8",
-        price: "499.99",
+        price: "499",
         save: "150",
-        was: "649.99"
+        was: "649"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6432/6432549_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - Chromebase 21.5 Touch- Screen All - In - One - Intel Pentium Gold - 4GB Memory - 64GB eMMC - Snowflake White",
         model: " NS-32DF310NA19",
         rating: "4.7",
-        price: "149.99",
+        price: "149",
         save: "50",
-        was: "199.99"
+        was: "199"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6432/6432549_sd.jpg;maxHeight=300;maxWidth=450",
@@ -946,9 +946,9 @@ var gameDataBase = [
         name: "Microsoft - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 4GB - 64GB SSD - Device Only - Platinum",
         model: "STV-00001",
         rating: "4.9",
-        price: "299.99",
+        price: "299",
         save: "100",
-        was: "399.99"
+        was: "399"
     },
 
     {
@@ -956,9 +956,9 @@ var gameDataBase = [
         name: "Microsoft - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 8GB - 128GB SSD - Device Only - Platinum",
         model: "STQ-00001",
         rating: "4.5",
-        price: "399.99",
+        price: "399",
         save: "150",
-        was: "549.99"
+        was: "549"
     },
 
     {
@@ -966,7 +966,7 @@ var gameDataBase = [
         name: "Microsoft - Surface Pro 7+ - 12.3” Touch Screen – Intel Core i5 – 8GB Memory – 128GB SSD with Black Type Cover (Latest Model) - Platinum",
         model: " UN50TU7000FXZA",
         rating: "4.7",
-        price: "799.99",
+        price: "799",
         save: "230",
         was: "1,029"
     },
@@ -976,27 +976,27 @@ var gameDataBase = [
         name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
         model: "KD43X80J",
         rating: "4.8",
-        price: "449.99",
+        price: "449",
         save: "150",
-        was: "599.99"
+        was: "599"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465896_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - ENVY 2-in-1 13 Touch- Screen Laptop - Intel Evo Platform Core i5 - 8GB Memory - 256GB SSD - Pale Gold",
         model: "UN65TU7000FXZA",
         rating: "4.8",
-        price: "499.99",
+        price: "499",
         save: "150",
-        was: "649.99"
+        was: "649"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465335_sd.jpg;maxHeight=300;maxWidth=450",
         name: "HP - Chromebase 21.5 Touch- Screen All - In - One - Intel Pentium Gold - 4GB Memory - 64GB eMMC - Snowflake White",
         model: " NS-32DF310NA19",
         rating: "4.7",
-        price: "149.99",
+        price: "149",
         save: "50",
-        was: "199.99"
+        was: "199"
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5721/5721812_sd.jpg;maxHeight=300;maxWidth=450",
