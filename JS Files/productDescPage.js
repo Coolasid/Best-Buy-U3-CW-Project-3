@@ -222,17 +222,24 @@ productArr.forEach((prod)=>{
     let brndN = document.getElementById("brandNmDiv");
     brndN.textContent = brandName;
 
-    
+    let sBN = document.getElementById("sBName");
+    sBN.textContent = brandName;
 
 
     let productNm = document.getElementById("prodName");
     productNm.textContent = Name;
+
+    let sPN = document.getElementById("sPName")
+    sPN.textContent = Name;
 
     let cTitle = document.getElementById("title");
     cTitle.textContent = Name;
 
     let modelN = document.getElementById("modelNo");
     modelN.textContent = prod.model;
+
+    let sPM = document.getElementById("sMName");
+    sPM.textContent = prod.model;
     
     let Rating = document.getElementById("rat");
     Rating.textContent = prod.rating

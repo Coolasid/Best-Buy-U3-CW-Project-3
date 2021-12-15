@@ -1043,7 +1043,7 @@ border-bottom: 1px solid rgb(197,203,213);
 
 
 #specDiv{
-    width: 60%;
+    width: 75%;
 
     /* height: 500px; */
     margin-top: 2%;
@@ -1059,6 +1059,7 @@ border-bottom: 1px solid rgb(197,203,213);
     box-sizing: border-box;
     padding-bottom: 1%;
     border-bottom: 1px solid rgb(197,203,213);
+    color: rgb(29,37,44);
 }
 #l{
     margin-top: -.1%;
@@ -1076,6 +1077,7 @@ border-top: 1px solid rgb(197,203,213);
 
 .SD{
     font-size: 1.2vw;
+    color: rgb(29,37,44);
     font-weight: 600;
     /* margin-top: 1%; */
     box-sizing: border-box;
@@ -1093,7 +1095,31 @@ border-top: 1px solid rgb(197,203,213);
     font-size: 2.5vw;
     padding-top: 5%;
     box-sizing: border-box;
+    color: rgb(29,37,44);
 }
+
+.oD{
+    margin: 2% 5.5% 0 1%;
+
+}
+
+.sODiv{
+    font-size: .85vw;
+    color: rgb(29,37,44);
+    display: grid;
+    padding-bottom: 2.5%;
+    grid-template-columns: 50% 50%;
+
+}
+.fT{
+    box-sizing: border-box;
+    padding-left: 49%;
+}
+.sT{
+    box-sizing: border-box;
+    padding-left: 29%;
+}
+
 
 div{
     /* border: 1px solid black; */
