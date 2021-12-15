@@ -451,3 +451,11 @@ totalS.textContent = "-$"+ tSPrice;
 let tp = tPrice - tSPrice + 41
 let totP = document.getElementById("totalP")
 totP.textContent = "$" + tp ;
+
+
+//linking CheckoutPage=>
+
+let ckO = document.getElementById("checkOutDiv");
+ckO.addEventListener("click",()=>{
+    window.location.href = "checkoutPage.html"
+})
