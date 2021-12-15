@@ -362,4 +362,115 @@ getDown.addEventListener("click",()=>{
     n++;
 })
 
+// specification Part=>
 
+let exp1 = document.getElementById("Sexp1")
+let d1 = document.getElementById("d1")
+d1.addEventListener("click",f1);
+
+var F1 = 0;
+function f1(){
+    // alert()
+    if(F1 % 2 == 0){
+        exp1.textContent = "expand_less"
+    }
+    else{
+        exp1.textContent = "expand_more"
+    }
+
+F1++;
+    
+}
+
+
+
+let exp2 = document.getElementById("Sexp2")
+let d2 = document.getElementById("d2")
+d2.addEventListener("click", f2);
+
+var F2 = 0;
+function f2() {
+    // alert()
+    if (F2 % 2 == 0) {
+        exp2.textContent = "expand_less"
+    }
+    else {
+        exp2.textContent = "expand_more"
+    }
+
+    F2++;
+
+}
+
+let exp3 = document.getElementById("Sexp3")
+let d3 = document.getElementById("d3")
+d3.addEventListener("click", f3);
+
+var F3 = 0;
+function f3() {
+    // alert()
+    if (F3 % 3 == 0) {
+        exp3.textContent = "expand_less"
+    }
+    else {
+        exp3.textContent = "expand_more"
+    }
+
+    F3++;
+
+}
+
+let exp4 = document.getElementById("Sexp4")
+let d4 = document.getElementById("d4")
+d4.addEventListener("click", f4);
+
+var F4 = 0;
+function f4() {
+    // alert()
+    if (F4 % 4 == 0) {
+        exp4.textContent = "expand_less"
+    }
+    else {
+        exp4.textContent = "expand_more"
+    }
+
+    F4++;
+
+}
+
+
+let exp5 = document.getElementById("Sexp5")
+let d5 = document.getElementById("d5")
+d5.addEventListener("click", f5);
+
+var F5 = 0;
+function f5() {
+    // alert()
+    if (F5 % 5 == 0) {
+        exp5.textContent = "expand_less"
+    }
+    else {
+        exp5.textContent = "expand_more"
+    }
+
+    F5++;
+
+}
+
+//////////
+
+
+// go to cart=>
+
+let cartPage = document.getElementById("cart");
+cartPage.style.cursor = "pointer"
+cartPage.addEventListener("click",()=>{
+    window.location.href = "cartPage.html"
+    
+})
+
+let goTOHome = document.getElementById("bestBLogo")
+goTOHome.style.cursor = "pointer"
+goTOHome.addEventListener("click", () => {
+    window.location.href = "HomePage.html"
+})

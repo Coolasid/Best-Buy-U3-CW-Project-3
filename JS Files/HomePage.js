@@ -176,6 +176,20 @@ function saveIBox() {
 
 //Linking of Pages=>
 
+let goTOHome = document.getElementById("bestBLogo")
+goTOHome.style.cursor = "pointer"
+goTOHome.addEventListener("click", () => {
+    window.location.href = "HomePage.html"
+})
+
+// go to cart=>
+
+let cartPage = document.getElementById("cart");
+cartPage.style.cursor = "pointer"
+cartPage.addEventListener("click", () => {
+    window.location.href = "cartPage.html"
+
+})
 
 let signIn = document.getElementById("signIn")
 let signUp = document.getElementById("cA");
