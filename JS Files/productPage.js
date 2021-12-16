@@ -1147,6 +1147,7 @@ OTT.addEventListener("click", () => {
 
 let cartPage = document.getElementById("cart");
 cartPage.style.cursor = "pointer"
+
 cartPage.addEventListener("click", () => {
     window.location.href = "cartPage.html"
 
@@ -1173,10 +1174,27 @@ function addProdToCart(image, name, model, rating, price, save, was){
 
     let cartArr = JSON.parse(localStorage.getItem("Cart"));
 
-    cartArr.push(obj);
+    let countA = 0;
+
+    cartArr.forEach((el)=>{
+
+        if(el.name == name){
+            countA++;
+        }
+    })
+
+    if(countA > 0){
+        alert("This product is already present in your Cart")
+    }else{
+        cartArr.push(obj);
+        alert("Product is added to Cart")
+    }
+
+
+    
 
     localStorage.setItem("Cart",JSON.stringify(cartArr));
-    alert("Product is added to Cart")
+    
     
 }
 

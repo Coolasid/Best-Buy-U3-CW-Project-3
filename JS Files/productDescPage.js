@@ -197,6 +197,9 @@ function openSignUp() {
 let productArr = JSON.parse(localStorage.getItem("prodDesc"));
 // console.log(productArr);
 
+function appProd(productArr){
+
+
 productArr.forEach((prod)=>{
     // console.log(prod.name)
 
@@ -298,12 +301,15 @@ productArr.forEach((prod)=>{
         }
     }
 
-    console.log(Oprice);
+    // console.log(Oprice);
     let inst = document.getElementById("I");
     inst.textContent = (Oprice/18).toFixed(2)
 
 })
 
+}
+
+appProd(productArr)
 
 
 // addToCart=>
@@ -329,11 +335,28 @@ function addProdToCart(prod) {
 
     let cartArr = JSON.parse(localStorage.getItem("Cart"));
 
-    cartArr.push(obj);
+    let countPA = 0;
+
+    cartArr.forEach((el)=>{
+
+        if(el.name == prod.name){
+            countPA++;
+            // console.log(countP)
+        }
+    })
+
+    if(countPA > 0){
+        alert("This product is already present in your Cart")
+    }else{
+        cartArr.push(obj);
+        alert("Product is added to Cart")
+    }
+
+    
 
     localStorage.setItem("Cart", JSON.stringify(cartArr));
 
-    alert("Product is added to Cart")
+    
 }
 
 

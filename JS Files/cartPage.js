@@ -214,9 +214,17 @@ let cartArr = JSON.parse(localStorage.getItem("Cart"));
 
 let tPrice = 0;
 let tSPrice = 0;
+let r  = 0;
+let allProd = document.getElementById("allProdDiv");
+
+function appProd(cartArr){
+
 cartArr.forEach((prod)=>{
 
     
+
+
+
 // updating OP=>
     let toN = prod.was;
     let opStr = ""
@@ -256,7 +264,7 @@ cartArr.forEach((prod)=>{
 
     tSPrice += +sStr;
 
-    let allProd = document.getElementById("allProdDiv");
+    
 
         let Div = document.createElement("div");
         Div.style.border = "1px solid  rgb(224,230,239);"
@@ -357,6 +365,7 @@ cartArr.forEach((prod)=>{
                     selDiv.style.outline = "none";
                     selDiv.style.border = "1px solid rgb(0,70,190)"
                     selDiv.style.fontSize = "1.1vw"
+                    selDiv.style.paddingLeft = "1.5%"
 
                         let op1 = document.createElement("option")
                         op1.textContent = "1"
@@ -378,6 +387,10 @@ cartArr.forEach((prod)=>{
                     remDiv.style.fontSize = ".75vw"
                     remDiv.textContent = "remove";
                     remDiv.style.margin = "1% 0 0 53% "
+                    remDiv.addEventListener("click",()=>{
+                        removeProd(prod);
+                    })
+
 
                     let saveDiv = document.createElement("div");
                     saveDiv.style.fontSize = ".75vw"
@@ -436,7 +449,44 @@ cartArr.forEach((prod)=>{
 
 
 
+
+    
+
 })
+
+}
+
+appProd(cartArr)
+
+
+
+
+//remove functionality =>
+
+function removeProd(prod){
+
+    allProd.innerHTML = null;
+
+    let cart = JSON.parse(localStorage.getItem("Cart"));
+
+    var updCart = [];
+
+    cart.forEach((el)=>{
+        if(el.name != prod.name){
+            updCart.push(el);
+        }
+    })
+    appProd(updCart);
+
+    localStorage.setItem("Cart",JSON.stringify(updCart));
+
+    window.location.href = "cartPage.html"
+
+}
+
+
+/////////////
+
 
 
 let totalop = document.getElementById("totalOP");
