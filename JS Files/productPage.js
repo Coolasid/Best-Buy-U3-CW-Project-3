@@ -446,6 +446,7 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
                     let saveDiv = document.createElement("div");
                     saveDiv.style.display = "grid";
                     saveDiv.style.gridTemplateColumns = "17% 70%"
+                    
 
 
 
@@ -457,6 +458,7 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
                         savel.addEventListener("click",saveI);
 
                         function saveI(){
+                            saveItem(name,image,price,rating);
                             savel.style.color = "rgb(0,70,190)";
                         }
 
@@ -1231,4 +1233,41 @@ function goToProdDescPage(image, name, model, rating, price, save, was){
 
 }
 
+
+
+///savedItems=>
+
+function saveItem(name, image, price, rating){
+
+    var prod = {
+        name:name,
+        image:image,
+        price:price,
+        rating:rating
+    }
+    
+
+    if (localStorage.getItem("Save") == null) {
+        localStorage.setItem("Save", JSON.stringify([]))
+    }
+
+    let savedItemsA = JSON.parse(localStorage.getItem("Save"));
+
+
+    let sc = 0;
+    savedItemsA.forEach((el) => {
+        if (el.name == prod.name) {
+            sc++;
+        }
+    })
+    if (sc > 0) {
+        alert("You already saved this item")
+    } else {
+        savedItemsA.push(prod);
+    }
+
+    localStorage.setItem("Save", JSON.stringify(savedItemsA));
+
+
+}
 
