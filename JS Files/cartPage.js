@@ -396,6 +396,9 @@ cartArr.forEach((prod)=>{
                     saveDiv.style.fontSize = ".75vw"
                     saveDiv.textContent = "save";
                     saveDiv.style.margin = "1% 0 0 56% "
+                    saveDiv.addEventListener("click",()=>{
+                        removeProd(prod);
+                    })
 
 
                 addDiv.append(selDiv,remDiv,saveDiv);
@@ -462,8 +465,33 @@ appProd(cartArr)
 
 
 //remove functionality =>
+//saveFunct=>
 
 function removeProd(prod){
+///////save////////////
+    if(localStorage.getItem("Save") == null){
+        localStorage.setItem("Save",JSON.stringify([]))
+    }
+
+    let savedItemsA = JSON.parse(localStorage.getItem("Save"));
+    
+    
+    let sc = 0;
+    savedItemsA.forEach((el)=>{
+        if(el.name == prod.name){
+            sc++;
+        }
+    })
+    if(sc>0){
+        alert("You already saved this item")
+    }else{
+        savedItemsA.push(prod);
+    }
+
+    localStorage.setItem("Save",JSON.stringify(savedItemsA));
+
+
+///////////////////
 
     allProd.innerHTML = null;
 
@@ -486,6 +514,11 @@ function removeProd(prod){
 
 
 /////////////
+
+
+
+
+
 
 
 

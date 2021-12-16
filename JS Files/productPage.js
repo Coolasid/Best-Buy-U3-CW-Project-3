@@ -1231,3 +1231,4 @@ function goToProdDescPage(image, name, model, rating, price, save, was){
 
 }
 
+
