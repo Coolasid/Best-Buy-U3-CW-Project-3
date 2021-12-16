@@ -939,3 +939,41 @@ span{
     height: 400px;
     width: 50%;
 }
+
+
+/* footer=> */
+
+
+#footer{
+    margin: 50px auto auto auto;
+    height: 200px;
+    background-color: #f0f2f4;
+    box-sizing: border-box;
+    padding: .2% 0 0 0 ;
+}
+
+#footBox{
+    width: 90%;
+    height: 130px;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+#footBox>div>span{
+    font-size: 3.5vw;
+    color:#70757d;
+    
+    margin: 2% 0 0 40%;
+}
+
+.footText{
+    font-size: .8vw;
+    text-align: center;
+    font-weight: 600;
+    color: #0046be;
+}
+
+.footText:hover{
+    text-decoration: underline;
+}
