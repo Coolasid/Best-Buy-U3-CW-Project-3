@@ -498,3 +498,75 @@ goTOHome.style.cursor = "pointer"
 goTOHome.addEventListener("click", () => {
     window.location.href = "HomePage.html"
 })
+
+
+
+// saveItems=>
+
+
+
+let savedIArray = JSON.parse(localStorage.getItem("Save"));
+
+// console.log(savedIArray);
+
+savedIArray.forEach((prod) => {
+
+    let appSI = document.getElementById("appSI");
+
+
+    let Div = document.createElement("div");
+    Div.style.width = "250px"
+    Div.style.height = "150px"
+    Div.style.margin = "2%"
+
+    let inDiv = document.createElement("div");
+
+    inDiv.style.height = "150px";
+
+
+    let imgDiv = document.createElement("div");
+    // imgDiv.style.display = "grid";
+    imgDiv.style.height = "90px"
+    imgDiv.style.width = "80%"
+    imgDiv.style.margin = "auto";
+
+    let img = document.createElement("img");
+    img.src = prod.image;
+    img.style.height = "100%"
+    img.width.width = "100%";
+    img.style.margin = "0 0 0 13%"
+
+    imgDiv.append(img);
+
+
+    let priceDiv = document.createElement("div");
+    priceDiv.textContent = "$" + prod.price
+    priceDiv.style.fontSize = ".9vw"
+    priceDiv.style.fontWeight = "600"
+    priceDiv.style.margin = "3% 0 0 0"
+    priceDiv.style.textAlign = "center"
+
+
+
+    let nameDiv = document.createElement("div");
+
+    nameDiv.style.width = "100%"
+    nameDiv.style.fontSize = ".85vw"
+    nameDiv.style.height = "30px"
+    nameDiv.textContent = prod.name;
+    nameDiv.style.overflow = "scroll"
+    nameDiv.style.margin = "5% 0 0 0"
+
+
+
+
+
+    inDiv.append(imgDiv, priceDiv, nameDiv)
+
+
+    Div.append(inDiv);
+
+
+    appSI.append(Div);
+
+})

@@ -424,14 +424,17 @@ div{
 }
 
 
+/* saveItemsDIv */
+
 #savedItemsPopUp{
    display: none;
-    width: 1000px;
+    width: 600px;
     position: absolute;
-    height: 370px;
+    height: 200px;
+    border-radius: 5px;
     background-color: white;
     /* border: 1px solid black; */
-    margin: 0 0 0 30%;
+    margin: 0 0 0 55.2%;
     /* overflow: scroll; */
     animation: .5s ease-in op ;
 }
@@ -462,6 +465,36 @@ div{
   transform: rotateZ(180deg);
 }
 
+
+
+#appSI{
+    /* overflow: scroll; */
+    display: block;
+    /* width: 100%; */
+    overflow-x: scroll;
+    margin: 2%;
+    /* height: 175px;       */
+    white-space: nowrap;
+}
+#appSI>div{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#appSI>div>div>div:nth-child(3){
+    color: rgb(0,70,190);
+    cursor: pointer;
+}
+
+#appSI>div>div>div:nth-child(3):hover{
+    text-decoration: underline;
+    color: rgb(0,30,115);
+    cursor: pointer;
+}
+
+div{
+    /* border: .2px solid black; */
+}
 /* navBar */
 
 
