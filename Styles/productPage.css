@@ -301,6 +301,8 @@ div{
   display: none;
 }
 
+/* searchRes */
+
 #searchRes{
      display: none;
     width: 595px;
@@ -312,6 +314,12 @@ div{
     overflow: scroll;
     animation: .5s ease-in op ;
 }
+
+
+
+
+
+/* ///////////// */
 
 #holidayPopUp{
    display: none;

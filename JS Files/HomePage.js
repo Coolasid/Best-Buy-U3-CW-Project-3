@@ -86,26 +86,6 @@ function showNext1() {
 
 
 
-// searchRes=>
-
-
-
-setInterval(searchInp,1000)
-function searchInp(){
-    let inpt = document.getElementById("inp").value;
-
-    if(inpt != ""){
-        let searchR = document.getElementById("searchRes");
-        searchR.style.display = "block";
-    }
-    if(inpt == ""){
-        let searchR = document.getElementById("searchRes");
-        searchR.style.display = "none";
-    }
-    // console.log(inpt)
-        
-}
-
 // holidayPoP=>
 
 let holiday = document.getElementById("holiday")
@@ -215,7 +195,7 @@ var sliderArr1 = [
 
     {
         img:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401049_sd.jpg;maxHeight=272;maxWidth=400",
-        name: "Sony - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
+        name: "SONY - 75 Class XBR X800H Series LED 4K UHD Smart Android TV",
         rating: "4.5",
         price: "$1,234"
     },
@@ -521,7 +501,7 @@ var TvDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401738_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 50 Class 7 Series LED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 50 Class 7 Series LED 4K UHD Smart Tizen TV",
         model: " UN50TU7000FXZA",
         rating: "2.7",
         price: "379",
@@ -531,7 +511,7 @@ var TvDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452965_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Sony - 43 Class X80J Series LED 4K UHD Smart Google TV",
+        name: "SONY - 43 Class X80J Series LED 4K UHD Smart Google TV",
         model: "KD43X80J",
         rating: "3.8",
         price: "449",
@@ -540,7 +520,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401722_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 65 Class 7 Series LED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 65 Class 7 Series LED 4K UHD Smart Tizen TV",
         model: "UN65TU7000FXZA",
         rating: "4.8",
         price: "499",
@@ -567,7 +547,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452997_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 50 Class 8000 Series LED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 50 Class 8000 Series LED 4K UHD Smart Tizen TV",
         model: "UN50AU8000FXZA",
         rating: "1.9",
         price: "479",
@@ -576,7 +556,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360291_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 40 Class 5 Series LED Full HD Smart Tizen TV",
+        name: "SAMSUNG - 40 Class 5 Series LED Full HD Smart Tizen TV",
         model: "UN40N5200AFXZA",
         rating: "2.9",
         price: "549",
@@ -603,7 +583,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455218_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Sony - 65 Class BRAVIA XR A80J Series OLED 4K UHD Smart Google TV",
+        name: "SONY - 65 Class BRAVIA XR A80J Series OLED 4K UHD Smart Google TV",
         model: "XR65A80J",
         rating: "3.4",
         price: "1,999",
@@ -621,7 +601,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453207_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Sony - 75 Class X85J Series LED 4K UHD Smart Google TV",
+        name: "SONY - 75 Class X85J Series LED 4K UHD Smart Google TV",
         model: "KD75X85J",
         rating: "5",
         price: "1,199",
@@ -630,7 +610,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465202_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 32 Class Q60A Series QLED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 32 Class Q60A Series QLED 4K UHD Smart Tizen TV",
         model: "QN32Q60AAFXZA",
         rating: "2.9",
         price: "399",
@@ -639,7 +619,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451519_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 82 Class Q60T Series LED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 82 Class Q60T Series LED 4K UHD Smart Tizen TV",
         model: "QN82Q60TAFXZA",
         rating: "4.9",
         price: "1,499",
@@ -648,7 +628,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455216_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Sony - 75 Class BRAVIA XR X90J Series LED 4K UHD Smart Google TV",
+        name: "SONY - 75 Class BRAVIA XR X90J Series LED 4K UHD Smart Google TV",
         model: "XR75X90J",
         rating: "2.9",
         price: "1,599",
@@ -657,7 +637,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451476_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 65 Class Q70A Series QLED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 65 Class Q70A Series QLED 4K UHD Smart Tizen TV",
         model: "QN65Q70AAFXZA",
         rating: "3.9",
         price: "1,099",
@@ -666,7 +646,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451481_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 55 Class Q80A Series QLED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 55 Class Q80A Series QLED 4K UHD Smart Tizen TV",
         model: "QN55Q80AAFXZA",
         rating: "2.1",
         price: "999",
@@ -675,7 +655,7 @@ var TvDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452319_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Samsung - 65 Class QN85A Series Neo QLED 4K UHD Smart Tizen TV",
+        name: "SAMSUNG - 65 Class QN85A Series Neo QLED 4K UHD Smart Tizen TV",
         model: "QN65QN85AAFXZA",
         rating: "5",
         price: "1,599",
@@ -724,7 +704,7 @@ var laptopDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo Ideapad 3 15.6 FHD Touch Screen Laptop - Intel Core i5 11th Gen - 12GB Memory - 256GB SSD - Arctic Grey",
+        name: "LENOVO Ideapad 3 15.6 FHD Touch Screen Laptop - Intel Core i5 11th Gen - 12GB Memory - 256GB SSD - Arctic Grey",
         model: "70UP8070PUA",
         rating: "4.9",
         price: "749",
@@ -744,7 +724,7 @@ var laptopDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401727_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo - Chromebook Duet - 10.1 - Tablet - 128GB - With Keyboard - Ice Blue + Iron Gray",
+        name: "LENOVO - Chromebook Duet - 10.1 - Tablet - 128GB - With Keyboard - Ice Blue + Iron Gray",
         model: " UN50TU7000FXZA",
         rating: "4.7",
         price: "379",
@@ -754,7 +734,7 @@ var laptopDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
+        name: "LENOVO Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
         model: "KD43X80J",
         rating: "4.8",
         price: "449",
@@ -808,7 +788,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426710_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo - Yoga 7i 2-in-1 14 Touch Screen Laptop - Intel Evo Platform Core i5 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
+        name: "LENOVO - Yoga 7i 2-in-1 14 Touch Screen Laptop - Intel Evo Platform Core i5 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
         model: "70NANO75UPA",
         rating: "4.8",
         price: "899",
@@ -817,7 +797,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455180_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 7 - 16GB Memory - 512GB SSD - Abyss Blue with Fabric Cover",
+        name: "LENOVO Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 7 - 16GB Memory - 512GB SSD - Abyss Blue with Fabric Cover",
         model: "120L9G-CINE120A",
         rating: "4.9",
         price: "4,999",
@@ -826,7 +806,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447818_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Acer  Chromebook Spin 514  Convertible - 14” Full HD Touch  Ryzen 3 3250C 4GB DDR4 Memory  64GB eMMC Flash Memory",
+        name: "ACER  Chromebook Spin 514  Convertible - 14” Full HD Touch  Ryzen 3 3250C 4GB DDR4 Memory  64GB eMMC Flash Memory",
         model: "XR65A80J",
         rating: "4.9",
         price: "1,999",
@@ -835,7 +815,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6454/6454254_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo - Flex 5 13 2-in -1 Chromebook - Pentium 7505 - 4GB Memory - 32GB eMMC - Abyss Blue",
+        name: "LENOVO - Flex 5 13 2-in -1 Chromebook - Pentium 7505 - 4GB Memory - 32GB eMMC - Abyss Blue",
         model: "32S327",
         rating: "4.9",
         price: "199",
@@ -844,7 +824,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462556_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Geo - GeoBook 120 Minecraft Edition 12.5-inch HD Laptop - Intel Celeron Quad Core Processor - 4GB Memory - 64GB eMMC - Minecraft Green",
+        name: "GEO - GeoBook 120 Minecraft Edition 12.5-inch HD Laptop - Intel Celeron Quad Core Processor - 4GB Memory - 64GB eMMC - Minecraft Green",
         model: "KD75X85J",
         rating: "4.9",
         price: "1,199",
@@ -853,7 +833,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462558_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Geo - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Blue",
+        name: "GEO - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Blue",
         model: "QN32Q60AAFXZA",
         rating: "4.9",
         price: "399",
@@ -862,7 +842,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6462/6462557_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Geo - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Purple",
+        name: "GEO - GeoBook 120 12.5-inch HD Laptop - Intel Celeron Dual Core Processor - 4GB Memory - 64GB eMMC - Purple",
         model: "QN82Q60TAFXZA",
         rating: "4.9",
         price: "1,499",
@@ -871,7 +851,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6426/6426713_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo - Yoga 7i 2-in-1 15.6 HDR Touch Screen Laptop - Intel Evo Platform Core i7 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
+        name: "LENOVO - Yoga 7i 2-in-1 15.6 HDR Touch Screen Laptop - Intel Evo Platform Core i7 - 12GB Memory - 512GB Solid State Drive - Dark Moss",
         model: "XR75X90J",
         rating: "4.9",
         price: "1,599",
@@ -889,7 +869,7 @@ var laptopDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Microsoft - Surface Laptop 4 - 13.5” Touch-Screen  AMD Ryzen™ 5 Surface® Edition  8GB Memory - 128GB SSD (Latest Model) - Platinum",
+        name: "MICROSOFT - Surface Laptop 4 - 13.5” Touch-Screen  AMD Ryzen™ 5 Surface® Edition  8GB Memory - 128GB SSD (Latest Model) - Platinum",
         model: "QN55Q80AAFXZA",
         rating: "4.9",
         price: "999",
@@ -943,7 +923,7 @@ var gameDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408476_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Microsoft - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 4GB - 64GB SSD - Device Only - Platinum",
+        name: "MICROSOFT - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 4GB - 64GB SSD - Device Only - Platinum",
         model: "STV-00001",
         rating: "4.9",
         price: "299",
@@ -953,7 +933,7 @@ var gameDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6408/6408475_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Microsoft - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 8GB - 128GB SSD - Device Only - Platinum",
+        name: "MICROSOFT - Surface Go 2 - 10.5 Touch- Screen - Intel Pentium Gold - 8GB - 128GB SSD - Device Only - Platinum",
         model: "STQ-00001",
         rating: "4.5",
         price: "399",
@@ -963,7 +943,7 @@ var gameDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6482/6482155_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Microsoft - Surface Pro 7+ - 12.3” Touch Screen – Intel Core i5 – 8GB Memory – 128GB SSD with Black Type Cover (Latest Model) - Platinum",
+        name: "MICROSOFT - Surface Pro 7+ - 12.3” Touch Screen – Intel Core i5 – 8GB Memory – 128GB SSD with Black Type Cover (Latest Model) - Platinum",
         model: " UN50TU7000FXZA",
         rating: "4.7",
         price: "799",
@@ -973,7 +953,7 @@ var gameDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455181_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Lenovo Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
+        name: "LENOVO Yoga 6 13 2-in-1 13.3 Touch Screen Laptop - AMD Ryzen 5 - 8GB Memory - 256GB SSD - Abyss Blue with Fabric Cover",
         model: "KD43X80J",
         rating: "4.8",
         price: "449",
@@ -1045,7 +1025,7 @@ var gameDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6447/6447818_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Acer  Chromebook Spin 514  Convertible - 14” Full HD Touch  Ryzen 3 3250C 4GB DDR4 Memory  64GB eMMC Flash Memory",
+        name: "ACER  Chromebook Spin 514  Convertible - 14” Full HD Touch  Ryzen 3 3250C 4GB DDR4 Memory  64GB eMMC Flash Memory",
         model: "XR65A80J",
         rating: "4.9",
         price: "1,999",
@@ -1108,7 +1088,7 @@ var gameDataBase = [
     },
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6477/6477089_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "Microsoft - Surface Laptop 4 - 13.5” Touch-Screen  AMD Ryzen™ 5 Surface® Edition  8GB Memory - 128GB SSD (Latest Model) - Platinum",
+        name: "MICROSOFT - Surface Laptop 4 - 13.5” Touch-Screen  AMD Ryzen™ 5 Surface® Edition  8GB Memory - 128GB SSD (Latest Model) - Platinum",
         model: "QN55Q80AAFXZA",
         rating: "4.9",
         price: "999",
@@ -1227,4 +1207,155 @@ savedIArray.forEach((prod)=>{
     appSI.append(Div);
 
 })
+
+
+
+
+
+
+// searchRes=>
+
+let totalDBArr = [];
+
+TvDataBase.forEach((el)=>{
+    totalDBArr.push(el);
+})
+
+gameDataBase.forEach((el)=>{
+    var sid = 0;
+
+    totalDBArr.forEach((p)=>{
+        
+        if(el.name == p.name){
+            sid++;
+        }
+    })
+
+    if(sid == 0){
+        totalDBArr.push(el);
+        
+    }
+    
+})
+
+
+
+laptopDataBase.forEach((el)=>{
+
+    var patil = 0;
+
+    totalDBArr.forEach((p)=>{
+
+        if(el.name == p.name){
+            patil++;
+        }
+    })
+
+    if(patil == 0){
+        totalDBArr.push(el);
+    }
+    
+
+})
+
+if(localStorage.getItem("totalData") == null){
+    localStorage.setItem("totalData",JSON.stringify([]));
+}
+
+// let totArr = JSON.parse(localStorage.getItem("totalData"));
+
+localStorage.setItem("totalData",JSON.stringify(totalDBArr));
+
+
+// console.log(totalDBArr)
+let searchResD = document.getElementById("searchRes")
+
+    // totalDBArr.forEach((el)=>{
+    //     console.log(el.name);
+    // })
+
+setInterval(searchInp, 500)
+function searchInp() {
+    let inpt = document.getElementById("inp").value.toUpperCase();
+    
+    searchResD.innerHTML = null;
+
+
+    totalDBArr.forEach((el)=>{
+        
+        // console.log(el.name);
+
+        let spName = el.name.split(" ");
+        
+        // console.log(spName);
+
+        for(var i = 0; i < spName.length;i++){
+
+            if (spName[i] == inpt){
+                
+                    appSearchProd(el);
+                        
+                
+            }
+        }
+
+    })
+
+    if (inpt != " ") {
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "block";
+    }
+    if (inpt == "") {
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "none";
+    }
+    // console.log(inpt)
+
+}
+
+function appSearchProd(el){
+    // console.log(el);
+
+    // searchResD.innerHTML = null;
+
+        let Div = document.createElement("div");
+        Div.style.height = "80px";
+        Div.style.margin = "2% 3% 0 3%"
+        Div.style.display = "grid";
+        Div.style.gridTemplateColumns = "30% 50% 20%"
+
+
+            let imgDiv = document.createElement("div");
+            imgDiv.style.width = "100%"
+            imgDiv.style.height = "100%"
+
+                let img = document.createElement("img");
+                img.style.width = "80%"
+                img.style.height = "90%"
+                img.src = el.image
+
+            imgDiv.append(img);
+
+            let nameDiv = document.createElement("div");
+            nameDiv.textContent = el.name;
+            nameDiv.style.fontSize = ".85vw"
+            nameDiv.style.paddingLeft = "1%"
+            nameDiv.addEventListener("click",()=>{
+                alert()
+            })
+            
+
+            let priceD = document.createElement("div");
+            priceD.textContent = "$" + el.price;
+            priceD.style.textAlign ="right"
+            priceD.style.fontWeight = "600"
+            priceD.style.fontSize = ".85vw"
+                
+
+        Div.append(imgDiv,nameDiv,priceD);
+
+    searchResD.append(Div);
+
+}
+
 
