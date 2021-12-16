@@ -58,30 +58,16 @@ function showNext() {
 
 }
 
-let outerB = document.getElementById("outerBox2");
-outerB.addEventListener("click", showNext1);
-var v = 0;
-function showNext1() {
-    let ch1 = document.getElementById("ch1")
+let ap = document.getElementById("ap");
+ap.addEventListener("click", () => {
+    addLaptopData()
 
-    // outerBox1.style.backgroundColor = "#0046c4"
-    let sup = document.getElementById("Support");
-    if (v % 2 == 0) {
-        sup.style.display = "block";
-        outerB.style.backgroundColor = "#0046c4"
-        ch1.style.color = "white";
-    }
+})
 
-    if (v % 2 == 1) {
-        sup.style.display = "none";
-        outerB.style.backgroundColor = "white"
-        ch1.style.color = "#0046c4";
-
-
-    }
-    v++;
-
-}
+let tv5 = document.getElementById("tv");
+tv5.addEventListener("click", () => {
+    addTvData()
+})
 
 
 
