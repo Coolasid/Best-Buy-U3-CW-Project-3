@@ -201,18 +201,27 @@ function openSignUp() {
 
 //getting productData from localStroage=>
 
-let prodData = JSON.parse( localStorage.getItem("productData"));
+let  prodData = JSON.parse( localStorage.getItem("productData"));
 
-console.log(prodData);
+
+// console.log(prodData);
 
 let appProd = document.getElementById("appProducts");
 
 
 //appending all products=>
 
+function appProducts(prodData){
+
 
 prodData.forEach(({name,image,model,rating,price,save,was}) => {
     // console.log(product.name);
+
+
+    
+
+
+
 
     
 
@@ -577,8 +586,206 @@ appProd.append(mainDiv);
 
 })
 
+}
+
+appProducts(prodData)
+//////////////
+
+
+// sorting functionality=>
+
+let selectV = document.getElementById("sel");
+
+
+
+// let setSort = setInterval(HighToL,1000)
+let appPD = document.getElementById("appProducts");
+
+function HighToL(){
+
+    selectV.addEventListener("click", () => {
+        
+        
+        // console.log(selectV.value)
+
+        if(selectV.value == "HTL"){
+            appPD.innerHTML = null;
+            // console.log("HTL");
+            prodData.sort((a,b) => {
+
+                let aPrice = "";
+                let bPrice = "";
+                let pa = a.price;
+                let pb = b.price;
+
+                for(var i = 0; i < pa.length; i++){
+                    if(pa[i] != ","){
+                        aPrice += pa[i];
+                    }
+                }
+                for (var i = 0; i < pb.length; i++) {
+                    if (pb[i] != ",") {
+                        bPrice += pb[i];
+                    }
+                }
+
+                return bPrice - aPrice;
+
+
+            });
+            // console.log(prodData);
+            appProducts(prodData)
+        }
+    })
+    
+}
+HighToL();
+
+
+function LowToH() {
+
+    selectV.addEventListener("click", () => {
+        
+
+        // console.log(selectV.value)
+
+        if (selectV.value == "LTH") {
+            appPD.innerHTML = null;
+            // console.log("HTL");
+            prodData.sort((a, b) => {
+
+                let aPrice = "";
+                let bPrice = "";
+                let pa = a.price;
+                let pb = b.price;
+
+                for (var i = 0; i < pa.length; i++) {
+                    if (pa[i] != ",") {
+                        aPrice += pa[i];
+                    }
+                }
+                for (var i = 0; i < pb.length; i++) {
+                    if (pb[i] != ",") {
+                        bPrice += pb[i];
+                    }
+                }
+
+                return aPrice - bPrice;
+
+
+            });
+            // console.log(prodData);
+            appProducts(prodData)
+        }
+    })
+
+}
+LowToH();
+
+
 
 //////////////
+
+//sorting leftPart=>
+
+
+//same Day wali functionality=>
+let sameD = document.getElementById("sD");
+
+sameD.addEventListener("click",()=>{
+    
+    // console.log(sD.value)
+    if(sD.checked){
+        appPD.innerHTML = null;
+        let pd = [];
+
+        prodData.forEach((el)=>{
+            pd.push(el);
+        })
+
+        // console.log(pd);
+        let subProdD = pd.splice(5, 3);
+        
+        appProducts(subProdD);
+    }
+    else if (sD.checked == false) {
+     
+        appPD.innerHTML = null;
+        appProducts(prodData);
+    }
+    
+})
+
+//////////////
+
+//price wali functionality=>
+
+let priceA = [];
+
+let fPC = document.getElementById("firstPC");
+
+
+fPC.addEventListener("click",()=>{
+
+    if(fPC.checked){
+
+        prodData.forEach((el) => {
+
+            if (el.price >= 150 && el.price <= 499) {
+                priceA.push(el);
+            }
+        })
+
+        // console.log(priceA);
+        appPD.innerHTML = null;
+        appProducts(priceA);
+    }
+    else if(fPC.checked == false){
+
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+let sPC = document.getElementById("secondPC");
+
+sPC.addEventListener("click",()=>{
+
+    if(sPC.checked){
+
+    
+        prodData.forEach((el)=>{
+
+            let pric = "";
+            for(var i = 0; i < el.price.length; i++){
+                if(el.price[i] != ","){
+                    pric += el.price[i];
+                }
+            }
+
+            if(pric >= 500 && pric <= 1249 ){
+                priceA.push(el);
+            }
+
+            appPD.innerHTML = null
+            appProducts(priceA);
+            
+        })
+
+    }
+    else if(sPC.checked == false){
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+})
+
+
+
+
+
 
 
 // addProdToCart=>
