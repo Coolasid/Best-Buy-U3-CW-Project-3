@@ -317,7 +317,7 @@ div{
 }
 
 #searchRes>div:hover{
-    background-color: ;
+    background-color: rgb(250, 250, 250);
 }
 
 #searchRes>div>div:nth-child(2){

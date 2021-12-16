@@ -1274,7 +1274,7 @@ let searchResD = document.getElementById("searchRes")
     //     console.log(el.name);
     // })
 
-setInterval(searchInp, 500)
+setInterval(searchInp, 1000)
 function searchInp() {
     let inpt = document.getElementById("inp").value.toUpperCase();
     
@@ -1340,21 +1340,42 @@ function appSearchProd(el){
             nameDiv.textContent = el.name;
             nameDiv.style.fontSize = ".85vw"
             nameDiv.style.paddingLeft = "1%"
+            nameDiv.style.paddingTop = "2%"
             nameDiv.addEventListener("click",()=>{
-                alert()
+                goTpd(el);
             })
             
 
             let priceD = document.createElement("div");
             priceD.textContent = "$" + el.price;
-            priceD.style.textAlign ="right"
+            priceD.style.padding ="5% 0 0 55%"
             priceD.style.fontWeight = "600"
             priceD.style.fontSize = ".85vw"
+            
                 
 
         Div.append(imgDiv,nameDiv,priceD);
 
     searchResD.append(Div);
+
+}
+
+function goTpd(el){
+
+    if(localStorage.getItem("prodDesc")==null){
+        localStorage.setItem("prodDesc",JSON.stringify([]))
+    }
+
+    localStorage.setItem("prodDesc",JSON.stringify([]));
+
+    let pDArr = JSON.parse(localStorage.getItem("prodDesc"));
+    
+
+    pDArr.push(el);
+
+    localStorage.setItem("prodDesc",JSON.stringify(pDArr));
+
+    window.location.href = "productDescPage.html"
 
 }
 

@@ -266,7 +266,7 @@ productArr.forEach((prod)=>{
     Was.textContent = "Was $" + prod.was;
 
 
-    tvA = ["LG", "Insignia™", "Samsung", "Hisense", "Sony","TCL"]
+    tvA = ["LG", "INSIGNIA", "SAMSUNG", "Hisense", "SONY","TCL"]
 
     for(var i = 0; i < tvA.length; i++){
         if (tvA[i] == brandName){
@@ -275,7 +275,7 @@ productArr.forEach((prod)=>{
         }
     }
 
-    lapA = ["Lenovo", "ASUS", "HP", "Apple", "Acer", "Geo", "Dell","Microsoft"]
+    lapA = ["LENOVO", "ASUS", "HP", "Apple", "ACER", "GEO", "DELL","MICROSOFT"]
 
     for(var i = 0; i< lapA.length; i++){
         if(lapA[i] == brandName){
