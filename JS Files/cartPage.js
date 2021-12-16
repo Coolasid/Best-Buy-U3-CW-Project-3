@@ -94,25 +94,25 @@ function searchInp() {
 
 // holidayPoP=>
 
-let holiday = document.getElementById("holiday")
-holiday.addEventListener("click", showHolidayBox);
+// let holiday = document.getElementById("holiday")
+// holiday.addEventListener("click", showHolidayBox);
 
-var d = 0;
-function showHolidayBox() {
-    // alert()
+// var d = 0;
+// function showHolidayBox() {
+//     // alert()
 
-    let ho = document.getElementById("holidayPopUp");
+//     let ho = document.getElementById("holidayPopUp");
 
-    if (d % 2 == 0) {
-        ho.style.display = "block";
-    }
+//     if (d % 2 == 0) {
+//         ho.style.display = "block";
+//     }
 
-    if (d % 2 == 1) {
-        ho.style.display = "none";
-    }
-    d++;
+//     if (d % 2 == 1) {
+//         ho.style.display = "none";
+//     }
+//     d++;
 
-}
+// }
 
 
 // accountPopUp=>
