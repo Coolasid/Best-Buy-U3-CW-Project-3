@@ -1011,6 +1011,131 @@ ZTN.addEventListener("click", () => {
 })
 
 
+//sorting on rating=>
+
+
+let FTF = document.getElementById("FTF");
+
+FTF.addEventListener("click", () => {
+
+    if (FTF.checked) {
+
+        prodData.forEach((el) => {
+
+            
+            // console.log(+el.rating)
+            if (el.rating >= 4 && el.rating <= 5) {
+                priceA.push(el);
+                
+            }
+        })
+
+        appPD.innerHTML = null
+
+        appProducts(priceA);
+
+    }
+    else if (FTF.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+
+let TTF = document.getElementById("TTF");
+
+TTF.addEventListener("click", () => {
+
+    if (TTF.checked) {
+
+        prodData.forEach((el) => {
+
+
+            // console.log(+el.rating)
+            if (el.rating >= 3 && el.rating <= 4) {
+                priceA.push(el);
+
+            }
+        })
+
+        appPD.innerHTML = null
+
+        appProducts(priceA);
+
+    }
+    else if (TTF.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+
+let twoTT = document.getElementById("twoTT");
+
+twoTT.addEventListener("click", () => {
+
+    if (twoTT.checked) {
+
+        prodData.forEach((el) => {
+
+
+            // console.log(+el.rating)
+            if (el.rating >= 2 && el.rating <= 3) {
+                priceA.push(el);
+
+            }
+        })
+
+        appPD.innerHTML = null
+
+        appProducts(priceA);
+
+    }
+    else if (twoTT.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+
+
+let OTT = document.getElementById("OTT");
+
+OTT.addEventListener("click", () => {
+
+    if (OTT.checked) {
+
+        prodData.forEach((el) => {
+
+
+            // console.log(+el.rating)
+            if (el.rating >= 1 && el.rating <= 2) {
+                priceA.push(el);
+
+            }
+        })
+
+        appPD.innerHTML = null
+
+        appProducts(priceA);
+
+    }
+    else if (OTT.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+
+
 
 
 

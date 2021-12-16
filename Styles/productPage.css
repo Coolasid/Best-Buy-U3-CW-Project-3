@@ -527,7 +527,7 @@ div{
 #sortDiv{
     border: 1px solid rgb(197,203,213);
     /* overflow: scroll; */
-    height: 650px;
+    height: 600px;
     /* position: fixed; */
     /* scroll-margin-block-start: 20px; */
 }

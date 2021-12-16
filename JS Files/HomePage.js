@@ -503,7 +503,7 @@ var TvDataBase = [
         image:"https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452992_sd.jpg;maxHeight=300;maxWidth=450",
         name:"LG - 70” Class UP8070 Series LED 4K UHD Smart webOS TV",
         model:"70UP8070PUA",
-        rating:"4.9",
+        rating:"5",
         price:"749",
         save:"250",
         was:"999"
@@ -513,7 +513,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6450/6450248_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Insignia™ - 55 Class F50 Series QLED 4K UHD Smart Fire TV",
         model: "NS-55F501NA22",
-        rating: "4.5",
+        rating: "3.5",
         price: "399",
         save: "250",
         was: "649"
@@ -523,7 +523,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6401/6401738_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 50 Class 7 Series LED 4K UHD Smart Tizen TV",
         model: " UN50TU7000FXZA",
-        rating: "4.7",
+        rating: "2.7",
         price: "379",
         save: "100",
         was: "479"
@@ -533,7 +533,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452965_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 43 Class X80J Series LED 4K UHD Smart Google TV",
         model: "KD43X80J",
-        rating: "4.8",
+        rating: "3.8",
         price: "449",
         save: "150",
         was: "599"
@@ -560,7 +560,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453312_sd.jpg;maxHeight=300;maxWidth=450",
         name: "LG - 65 Class C1 Series OLED 4K UHD Smart webOS TV",
         model: "OLED65C1PUB",
-        rating: "4.9",
+        rating: "3.9",
         price: "1,799",
         save: "300",
         was: "2,099"
@@ -569,7 +569,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452997_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 50 Class 8000 Series LED 4K UHD Smart Tizen TV",
         model: "UN50AU8000FXZA",
-        rating: "4.9",
+        rating: "1.9",
         price: "479",
         save: "90",
         was: "569"
@@ -578,7 +578,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6360/6360291_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 40 Class 5 Series LED Full HD Smart Tizen TV",
         model: "UN40N5200AFXZA",
-        rating: "4.9",
+        rating: "2.9",
         price: "549",
         save: "80",
         was: "629"
@@ -587,7 +587,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6476/6476896_sd.jpg;maxHeight=300;maxWidth=450",
         name: "LG - 70 Class NanoCell 75 Series LED 4K UHD Smart webOS TV",
         model: "70NANO75UPA",
-        rating: "4.8",
+        rating: "3.5",
         price: "899",
         save: "300",
         was: "1,199"
@@ -596,7 +596,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6484/6484318_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Hisense - 120 L9 Series TriChroma Laser TV with ALR Screen - Black",
         model: "120L9G-CINE120A",
-        rating: "4.9",
+        rating: "1.5",
         price: "4,999",
         save: "1000",
         was: "5,999"
@@ -605,7 +605,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455218_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 65 Class BRAVIA XR A80J Series OLED 4K UHD Smart Google TV",
         model: "XR65A80J",
-        rating: "4.9",
+        rating: "3.4",
         price: "1,999",
         save: "300",
         was: "2,299"
@@ -614,7 +614,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6280/6280538_sd.jpg;maxHeight=300;maxWidth=450",
         name: "TCL - 32 Class 3-Series LED Full HD Smart Roku TV",
         model: "32S327",
-        rating: "4.9",
+        rating: "1.4",
         price: "199",
         save: "20",
         was: "219"
@@ -623,7 +623,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6453/6453207_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 75 Class X85J Series LED 4K UHD Smart Google TV",
         model: "KD75X85J",
-        rating: "4.9",
+        rating: "5",
         price: "1,199",
         save: "400",
         was: "1,599"
@@ -632,7 +632,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6465/6465202_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 32 Class Q60A Series QLED 4K UHD Smart Tizen TV",
         model: "QN32Q60AAFXZA",
-        rating: "4.9",
+        rating: "2.9",
         price: "399",
         save: "100",
         was: "499"
@@ -650,7 +650,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6455/6455216_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Sony - 75 Class BRAVIA XR X90J Series LED 4K UHD Smart Google TV",
         model: "XR75X90J",
-        rating: "4.9",
+        rating: "2.9",
         price: "1,599",
         save: "500",
         was: "2,099"
@@ -659,7 +659,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451476_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 65 Class Q70A Series QLED 4K UHD Smart Tizen TV",
         model: "QN65Q70AAFXZA",
-        rating: "4.9",
+        rating: "3.9",
         price: "1,099",
         save: "200",
         was: "1,299"
@@ -668,7 +668,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6451/6451481_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 55 Class Q80A Series QLED 4K UHD Smart Tizen TV",
         model: "QN55Q80AAFXZA",
-        rating: "4.9",
+        rating: "2.1",
         price: "999",
         save: "200",
         was: "1,199"
@@ -677,7 +677,7 @@ var TvDataBase = [
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6452/6452319_sd.jpg;maxHeight=300;maxWidth=450",
         name: "Samsung - 65 Class QN85A Series Neo QLED 4K UHD Smart Tizen TV",
         model: "QN65QN85AAFXZA",
-        rating: "4.9",
+        rating: "5",
         price: "1,599",
         save: "300",
         was: "1,899"
