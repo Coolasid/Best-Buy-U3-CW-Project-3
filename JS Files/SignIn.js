@@ -1,10 +1,6 @@
 // Linking Pages=>
 
-let goTOHome = document.getElementById("bestBLogo")
-goTOHome.style.cursor = "pointer"
-goTOHome.addEventListener("click", () => {
-    window.location.href = "HomePage.html"
-})
+
 
 let signUpPage = document.getElementById("signUp");
 
