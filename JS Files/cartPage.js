@@ -615,3 +615,126 @@ savedIArray.forEach((prod) => {
     appSI.append(Div);
 
 })
+
+
+
+
+// searchRes=>
+
+let totalDBArr = JSON.parse(localStorage.getItem("totalData"));
+
+// localStorage.setItem("totalData", JSON.stringify(totalDBArr));
+
+
+// console.log(totalDBArr)
+let searchResD = document.getElementById("searchRes")
+
+// totalDBArr.forEach((el)=>{
+//     console.log(el.name);
+// })
+
+setInterval(searchInp, 1000)
+function searchInp() {
+    let inpt = document.getElementById("inp").value.toUpperCase();
+
+    searchResD.innerHTML = null;
+
+
+    totalDBArr.forEach((el) => {
+
+        // console.log(el.name);
+
+        let spName = el.name.split(" ");
+
+        // console.log(spName);
+
+        for (var i = 0; i < spName.length; i++) {
+
+            if (spName[i] == inpt) {
+
+                appSearchProd(el);
+
+
+            }
+        }
+
+    })
+
+    if (inpt != " ") {
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "block";
+    }
+    if (inpt == "") {
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "none";
+    }
+    // console.log(inpt)
+
+}
+
+function appSearchProd(el) {
+    // console.log(el);
+
+    // searchResD.innerHTML = null;
+
+    let Div = document.createElement("div");
+    Div.style.height = "80px";
+    Div.style.margin = "2% 3% 0 3%"
+    Div.style.display = "grid";
+    Div.style.gridTemplateColumns = "30% 50% 20%"
+
+
+    let imgDiv = document.createElement("div");
+    imgDiv.style.width = "100%"
+    imgDiv.style.height = "100%"
+
+    let img = document.createElement("img");
+    img.style.width = "80%"
+    img.style.height = "90%"
+    img.src = el.image
+
+    imgDiv.append(img);
+
+    let nameDiv = document.createElement("div");
+    nameDiv.textContent = el.name;
+    nameDiv.style.fontSize = ".85vw"
+    nameDiv.style.paddingLeft = "1%"
+    nameDiv.style.paddingTop = "2%"
+    nameDiv.addEventListener("click", () => {
+        goTpd(el);
+    })
+
+
+    let priceD = document.createElement("div");
+    priceD.textContent = "$" + el.price;
+    priceD.style.padding = "5% 0 0 55%"
+    priceD.style.fontWeight = "600"
+    priceD.style.fontSize = ".85vw"
+
+
+
+    Div.append(imgDiv, nameDiv, priceD);
+
+    searchResD.append(Div);
+
+}
+
+function goTpd(el) {
+
+    if (localStorage.getItem("prodDesc") == null) {
+        localStorage.setItem("prodDesc", JSON.stringify([]))
+    }
+
+    localStorage.setItem("prodDesc", JSON.stringify([]));
+
+    let pDArr = JSON.parse(localStorage.getItem("prodDesc"));
+
+
+    pDArr.push(el);
+
+    localStorage.setItem("prodDesc", JSON.stringify(pDArr));
+
+    window.location.href = "productDescPage.html"
+
+}
+

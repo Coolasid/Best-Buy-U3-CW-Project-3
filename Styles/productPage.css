@@ -304,10 +304,11 @@ div{
 /* searchRes */
 
 #searchRes{
+    border-radius: 5px;
      display: none;
     width: 595px;
     position: absolute;
-    height: 400px;
+    max-height: 350px;
     background-color: white;
     /* border: 1px solid black; */
     margin: -.7% 0 0 19.2%;
@@ -315,11 +316,32 @@ div{
     animation: .5s ease-in op ;
 }
 
+#searchRes>div:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+#searchRes>div>div:nth-child(2){
+    color: rgb(0,70,190);
+}
+
+#searchRes>div>div:nth-child(2):hover{
+    color: rgb(0,30,115);
+    cursor: pointer;
+    text-decoration: underline;
+}
+/* #emp{
+    height: 400px;
+    width: 100%;
+} */
+
+div{
+    /* border: .2px solid black; */
+}
 
 
 
+/* ///////////////////// */
 
-/* ///////////// */
 
 #holidayPopUp{
    display: none;
