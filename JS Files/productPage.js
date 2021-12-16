@@ -784,6 +784,232 @@ sPC.addEventListener("click",()=>{
 
 
 
+let tPC = document.getElementById("thirdPC");
+
+tPC.addEventListener("click", () => {
+
+    if (tPC.checked) {
+
+
+        prodData.forEach((el) => {
+
+            let pric = "";
+            for (var i = 0; i < el.price.length; i++) {
+                if (el.price[i] != ",") {
+                    pric += el.price[i];
+                }
+            }
+
+            if (pric >= 1250 && pric <= 1999) {
+                priceA.push(el);
+            }
+
+            appPD.innerHTML = null
+            appProducts(priceA);
+
+        })
+
+    }
+    else if (tPC.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+})
+
+
+//now sortingON Discount=>
+
+
+
+let TPM = document.getElementById("tPM");
+
+TPM.addEventListener("click",()=>{
+
+    if(TPM.checked){
+
+        prodData.forEach((el)=>{
+
+            let saveStr = "";
+            let wasStr = "";
+
+            for(var i = 0; i < el.save.length; i++){
+                if(el.save[i] != ","){
+                    saveStr += el.save[i];
+                }
+            }
+
+            for (var i = 0; i < el.was.length; i++) {
+                if (el.was[i] != ",") {
+                    wasStr += el.was[i];
+                }
+            }
+
+            
+
+            let disc = (saveStr / wasStr) * 100;
+            
+            if( disc >= 21 && disc < 40  ){
+                priceA.push(el);
+                // console.log(disc);
+            }
+        })
+
+        appPD.innerHTML = null
+        
+        appProducts(priceA);
+
+    }
+    else if(TPM.checked == false){
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+
+
+let TOM = document.getElementById("twentyOM");
+
+TOM.addEventListener("click", () => {
+
+    if (TOM.checked) {
+
+        prodData.forEach((el) => {
+
+            let saveStr = "";
+            let wasStr = "";
+
+            for (var i = 0; i < el.save.length; i++) {
+                if (el.save[i] != ",") {
+                    saveStr += el.save[i];
+                }
+            }
+
+            for (var i = 0; i < el.was.length; i++) {
+                if (el.was[i] != ",") {
+                    wasStr += el.was[i];
+                }
+            }
+
+
+
+            let disc = (saveStr / wasStr) * 100;
+            // console.log(disc);
+            if (disc >= 14 && disc <=20) {
+                priceA.push(el);
+            }
+        })
+
+        appPD.innerHTML = null
+
+        appProducts(priceA);
+
+    }
+    else if (TOM.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+
+
+let TTT = document.getElementById("tenTOT");
+
+TTT.addEventListener("click", () => {
+
+    if (TTT.checked) {
+
+        prodData.forEach((el) => {
+
+            let saveStr = "";
+            let wasStr = "";
+
+            for (var i = 0; i < el.save.length; i++) {
+                if (el.save[i] != ",") {
+                    saveStr += el.save[i];
+                }
+            }
+
+            for (var i = 0; i < el.was.length; i++) {
+                if (el.was[i] != ",") {
+                    wasStr += el.was[i];
+                }
+            }
+
+
+
+            let disc = (saveStr / wasStr) * 100;
+            // console.log(disc);
+            if (disc >= 11 && disc <= 13) {
+                priceA.push(el);
+            }
+        })
+
+        appPD.innerHTML = null
+
+        appProducts(priceA);
+
+    }
+    else if (TTT.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
+
+
+
+let ZTN = document.getElementById("ZTN");
+
+ZTN.addEventListener("click", () => {
+
+    if (ZTN.checked) {
+
+        prodData.forEach((el) => {
+
+            let saveStr = "";
+            let wasStr = "";
+
+            for (var i = 0; i < el.save.length; i++) {
+                if (el.save[i] != ",") {
+                    saveStr += el.save[i];
+                }
+            }
+
+            for (var i = 0; i < el.was.length; i++) {
+                if (el.was[i] != ",") {
+                    wasStr += el.was[i];
+                }
+            }
+
+
+
+            let disc = (saveStr / wasStr) * 100;
+            // console.log(disc);
+            if (disc > 0 && disc <= 10) {
+                priceA.push(el);
+            }
+        })
+
+        appPD.innerHTML = null
+
+        appProducts(priceA);
+
+    }
+    else if (ZTN.checked == false) {
+        appPD.innerHTML = null;
+        priceA = [];
+        appProducts(prodData);
+    }
+
+})
+
 
 
 
