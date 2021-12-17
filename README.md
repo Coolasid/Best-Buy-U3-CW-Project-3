@@ -14,7 +14,7 @@
 ## Product Description:
 #### &nbsp;&nbsp; This browser Application allows user to shop online with functionality like search, sort, filter its becomes easy for the user to select the desired product with minimum amount of time.
 ### **Home Page**
-![](https://drive.google.com/file/d/1Q-Ba_preGv9lrQjFYRRM9PHDHkYpyRtD/view?usp=sharing)
+![](https://github.com/Coolasid/Bestbuy-U3-CW-Project/blob/8573089c5a1de30f1e9fd1d673d76015b1e56a1a/Screenshot%20(965).png)
 #### From the home page user can redirect to login page or can start shopping. Home page contains **search bar** which search will give you all sorts of suggestions based on the key input provided by the user and it will show top 5 suggestions based on the input and it won’t require the user to write up the whole product’s name just by typing a letter it will show suggestions based on it. (i.e — typing “b or bi” our top suggestion will be “Biba” or typing “ba” it will still give you a suggestion of “Biba” order doesn’t matter).
 
 ### **Product page** 
