@@ -18,7 +18,7 @@
 #### From the home page user can redirect to login page or can start shopping. Home page contains **search bar** which search will give you all sorts of suggestions based on the key input provided by the user and it will show top 5 suggestions based on the input and it won’t require the user to write up the whole product’s name just by typing a letter it will show suggestions based on it. (i.e — typing “b or bi” our top suggestion will be “Biba” or typing “ba” it will still give you a suggestion of “Biba” order doesn’t matter).
 
 ### **Product page** 
-![](https://cdn-images-1.medium.com/max/800/1*x2VTSVcE8yjCXd2JKo2pjg.png)
+![](https://github.com/Coolasid/Bestbuy-U3-CW-Project/blob/ea1ed61951e0f26e82685213141b962baa93c37b/Screenshot%20(966).png)
 #### In product page filtration and sorting part is done user can filter the products according to the brands, gender, discount, etc.,  (i.e —clicking on women won’t give you the filter option of gender in the list as gender already got filtered when you clicked on women from the previous page and the same system follows even in the category lists of each filter option). The same goes for the sorting option will sort the products based on the user’s choice of sorting like lowest price first, highest price first and based on discount as well which allow user minimum type to shop.
 ### **Product Description page**
 ![](https://cdn-images-1.medium.com/max/800/1*i9r9gcVW6MrsBHJTj7snPQ.png)
