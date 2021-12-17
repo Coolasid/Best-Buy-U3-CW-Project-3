@@ -1,4 +1,4 @@
-># CLONING Best buy WEBSITE
+># CLONING BEST BUY WEBSITE
 #### &nbsp;&nbsp;&nbsp;By Siddesh Patil.
 #### &nbsp;&nbsp; An online shopping website for purchase of Electronics.
 ## Technologies Used:
@@ -21,7 +21,7 @@
 ![](https://github.com/Coolasid/Bestbuy-U3-CW-Project/blob/ea1ed61951e0f26e82685213141b962baa93c37b/Screenshot%20(966).png)
 #### In product page filtration and sorting part is done user can filter the products according to the brands, gender, discount, etc.,  (i.e —clicking on women won’t give you the filter option of gender in the list as gender already got filtered when you clicked on women from the previous page and the same system follows even in the category lists of each filter option). The same goes for the sorting option will sort the products based on the user’s choice of sorting like lowest price first, highest price first and based on discount as well which allow user minimum type to shop.
 ### **Product Description page**
-![](https://cdn-images-1.medium.com/max/800/1*i9r9gcVW6MrsBHJTj7snPQ.png)
+![](https://github.com/Coolasid/Bestbuy-U3-CW-Project/blob/0c59e43c7665af60ee6ef4e8a10ceaa9ecc46906/All%20Images/Screenshot%20(967).png)
 #### This page allows the user to view the detailed look of the product what they have chosen. user can increase or decrease the quantity of the product. On clicking on Add to Cart your product will be added in your cart.
 
 ### **Cart Page**
