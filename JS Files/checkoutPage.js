@@ -7,7 +7,7 @@ goToSuccessP.addEventListener("click",()=>{
 
 let returnToHome = document.getElementById("return");
 returnToHome.addEventListener("click", () => {
-    window.location.href = "HomePage.html"
+    window.location.href = "cartPage.html"
 })
 
 let goHome = document.getElementById("logo");

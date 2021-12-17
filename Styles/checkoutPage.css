@@ -303,7 +303,7 @@ margin: 5% 0 0 8%;
 }
 
 #NowAppProdH{
-    height: 433px;
+    max-height: 433px;
     overflow: scroll;
 }
 

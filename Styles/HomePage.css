@@ -473,6 +473,7 @@ div{
    display: none;
     width: 350px;
     position: absolute;
+    border-radius: 5px;
     height: 160px;
     background-color: white;
     /* border: 1px solid black; */
