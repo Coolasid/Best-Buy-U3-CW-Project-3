@@ -455,11 +455,12 @@ prodData.forEach(({name,image,model,rating,price,save,was}) => {
                                             bookmark_border
                                             </div>`
 
-                        savel.addEventListener("click",saveI);
+                        savel.addEventListener("click",saveIS);
 
-                        function saveI(){
-                            saveItem(name,image,price,rating);
+                        function saveIS(){
                             savel.style.color = "rgb(0,70,190)";
+                            saveItem(name,image,price,rating);
+                            
                         }
 
 
@@ -1234,119 +1235,6 @@ function goToProdDescPage(image, name, model, rating, price, save, was){
 }
 
 
-
-///savedItems=>
-
-function saveItem(name, image, price, rating){
-
-    var prod = {
-        name:name,
-        image:image,
-        price:price,
-        rating:rating
-    }
-
-
-    if (localStorage.getItem("Save") == null) {
-        localStorage.setItem("Save", JSON.stringify([]))
-    }
-
-    let savedItemsA = JSON.parse(localStorage.getItem("Save"));
-
-
-    let sc = 0;
-    savedItemsA.forEach((el) => {
-        if (el.name == prod.name) {
-            sc++;
-        }
-    })
-    if (sc > 0) {
-        alert("You already saved this item")
-    } else {
-        savedItemsA.push(prod);
-    }
-
-    localStorage.setItem("Save", JSON.stringify(savedItemsA));
-
-
-}
-
-
-
-
-
-// saveItems=>
-
-
-
-let savedIArray = JSON.parse(localStorage.getItem("Save"));
-
-// console.log(savedIArray);
-
-savedIArray.forEach((prod) => {
-
-    let appSI = document.getElementById("appSI");
-
-
-    let Div = document.createElement("div");
-    Div.style.width = "250px"
-    Div.style.height = "150px"
-    Div.style.margin = "2%"
-
-    let inDiv = document.createElement("div");
-
-    inDiv.style.height = "150px";
-
-
-    let imgDiv = document.createElement("div");
-    // imgDiv.style.display = "grid";
-    imgDiv.style.height = "90px"
-    imgDiv.style.width = "80%"
-    imgDiv.style.margin = "auto";
-
-    let img = document.createElement("img");
-    img.src = prod.image;
-    img.style.height = "100%"
-    img.width.width = "100%";
-    img.style.margin = "0 0 0 13%"
-
-    imgDiv.append(img);
-
-
-    let priceDiv = document.createElement("div");
-    priceDiv.textContent = "$" + prod.price
-    priceDiv.style.fontSize = ".9vw"
-    priceDiv.style.fontWeight = "600"
-    priceDiv.style.margin = "3% 0 0 0"
-    priceDiv.style.textAlign = "center"
-
-
-
-    let nameDiv = document.createElement("div");
-
-    nameDiv.style.width = "100%"
-    nameDiv.style.fontSize = ".85vw"
-    nameDiv.style.height = "30px"
-    nameDiv.textContent = prod.name;
-    nameDiv.style.overflow = "scroll"
-    nameDiv.style.margin = "5% 0 0 0"
-
-
-
-
-
-    inDiv.append(imgDiv, priceDiv, nameDiv)
-
-
-    Div.append(inDiv);
-
-
-    appSI.append(Div);
-
-})
-
-
-
 // searchRes=>
 
 let totalDBArr = JSON.parse(localStorage.getItem("totalData"));
@@ -1463,5 +1351,129 @@ function goTpd(el) {
     localStorage.setItem("prodDesc", JSON.stringify(pDArr));
 
     window.location.href = "productDescPage.html"
+
+}
+
+
+///savedItems=>
+
+function saveItem(name1, image2, price3, rating5){
+
+    var prod = {
+        name:name1,
+        image:image2,
+        price:price3,
+        rating:rating5
+    }
+
+
+    if (localStorage.getItem("Save") == null) {
+        localStorage.setItem("Save", JSON.stringify([]))
+    }
+
+    let savedItemsA = JSON.parse(localStorage.getItem("Save"));
+
+
+    let sc = 0;
+    if(savedItemsA.length > 0){
+
+    
+        savedItemsA.forEach((el) => {
+            if (el.name == prod.name) {
+                sc++;
+            }
+        })
+    }
+    if (sc > 0) {
+        alert("You already saved this item")
+    } else {
+        savedItemsA.push(prod);
+    }
+
+    localStorage.setItem("Save", JSON.stringify(savedItemsA));
+
+
+}
+
+
+
+
+
+// saveItems=>
+
+
+setInterval(apptoSave,1000);
+function apptoSave(){
+
+    
+    let appSI = document.getElementById("appSI");
+    appSI.innerHTML = null;
+    
+let savedIArray = JSON.parse(localStorage.getItem("Save"));
+
+// console.log(savedIArray);
+
+savedIArray.forEach((prod) => {
+
+    
+    
+
+    let Div = document.createElement("div");
+    Div.style.width = "250px"
+    Div.style.height = "150px"
+    Div.style.margin = "2%"
+
+    let inDiv = document.createElement("div");
+
+    inDiv.style.height = "150px";
+
+
+    let imgDiv = document.createElement("div");
+    // imgDiv.style.display = "grid";
+    imgDiv.style.height = "90px"
+    imgDiv.style.width = "80%"
+    imgDiv.style.margin = "auto";
+
+    let img = document.createElement("img");
+    img.src = prod.image;
+    img.style.height = "100%"
+    img.width.width = "100%";
+    img.style.margin = "0 0 0 13%"
+
+    imgDiv.append(img);
+
+
+    let priceDiv = document.createElement("div");
+    priceDiv.textContent = "$" + prod.price
+    priceDiv.style.fontSize = ".9vw"
+    priceDiv.style.fontWeight = "600"
+    priceDiv.style.margin = "3% 0 0 0"
+    priceDiv.style.textAlign = "center"
+
+
+
+    let nameDiv = document.createElement("div");
+
+    nameDiv.style.width = "100%"
+    nameDiv.style.fontSize = ".85vw"
+    nameDiv.style.height = "30px"
+    nameDiv.textContent = prod.name;
+    nameDiv.style.overflow = "scroll"
+    nameDiv.style.margin = "5% 0 0 0"
+
+
+
+
+
+    inDiv.append(imgDiv, priceDiv, nameDiv)
+
+
+    Div.append(inDiv);
+
+
+    appSI.append(Div);
+
+})
+
 
 }

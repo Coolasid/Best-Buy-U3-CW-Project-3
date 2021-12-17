@@ -931,7 +931,7 @@ var gameDataBase = [
 
     {
         image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6482/6482155_sd.jpg;maxHeight=300;maxWidth=450",
-        name: "MICROSOFT - Surface Pro 7+ - 12.3” Touch Screen – Intel Core i5 – 8GB Memory – 128GB SSD with Black Type Cover (Latest Model) - Platinum",
+        name: "MICROSOFT - Surface Pro 7+ - 12.3” Touch Screen  Intel Core i5  8GB Memory  128GB SSD with Black Type Cover (Latest Model) - Platinum",
         model: " UN50TU7000FXZA",
         rating: "4.7",
         price: "799",
@@ -1126,15 +1126,191 @@ function addGameData() {
 /////////////////////////
 
 
+
+
+// searchRes=>
+
+let totalDBArr = [];
+
+TvDataBase.forEach((el) => {
+    totalDBArr.push(el);
+})
+
+gameDataBase.forEach((el) => {
+    var sid = 0;
+
+    totalDBArr.forEach((p) => {
+
+        if (el.name == p.name) {
+            sid++;
+        }
+    })
+
+    if (sid == 0) {
+        totalDBArr.push(el);
+
+    }
+
+})
+
+
+
+laptopDataBase.forEach((el) => {
+
+    var patil = 0;
+
+    totalDBArr.forEach((p) => {
+
+        if (el.name == p.name) {
+            patil++;
+        }
+    })
+
+    if (patil == 0) {
+        totalDBArr.push(el);
+    }
+
+
+})
+// console.log(totalDBArr)
+
+if (localStorage.getItem("totalData") == null) {
+    localStorage.setItem("totalData", JSON.stringify([]));
+}
+
+// let totArr = JSON.parse(localStorage.getItem("totalData"));
+
+localStorage.setItem("totalData", JSON.stringify(totalDBArr));
+
+
+// console.log(totalDBArr)
+let searchResD = document.getElementById("searchRes")
+
+// totalDBArr.forEach((el)=>{
+//     console.log(el.name);
+// })
+
+setInterval(searchInp, 1000)
+function searchInp() {
+    let inpt = document.getElementById("inp").value.toUpperCase();
+
+    searchResD.innerHTML = null;
+
+
+    totalDBArr.forEach((el) => {
+
+        // console.log(el.name);
+
+        let spName = el.name.split(" ");
+
+        // console.log(spName);
+
+        for (var i = 0; i < spName.length; i++) {
+
+            if (spName[i] == inpt) {
+
+                appSearchProd(el);
+
+
+            }
+        }
+
+    })
+
+    if (inpt != " ") {
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "block";
+    }
+    if (inpt == "") {
+        let searchR = document.getElementById("searchRes");
+        searchR.style.display = "none";
+    }
+    // console.log(inpt)
+
+}
+
+function appSearchProd(el) {
+    // console.log(el);
+
+    // searchResD.innerHTML = null;
+
+    let Div = document.createElement("div");
+    Div.style.height = "80px";
+    Div.style.margin = "2% 3% 0 3%"
+    Div.style.display = "grid";
+    Div.style.gridTemplateColumns = "30% 50% 20%"
+
+
+    let imgDiv = document.createElement("div");
+    imgDiv.style.width = "100%"
+    imgDiv.style.height = "100%"
+
+    let img = document.createElement("img");
+    img.style.width = "80%"
+    img.style.height = "90%"
+    img.src = el.image
+
+    imgDiv.append(img);
+
+    let nameDiv = document.createElement("div");
+    nameDiv.textContent = el.name;
+    nameDiv.style.fontSize = ".85vw"
+    nameDiv.style.paddingLeft = "1%"
+    nameDiv.style.paddingTop = "2%"
+    nameDiv.addEventListener("click", () => {
+        goTpd(el);
+    })
+
+
+    let priceD = document.createElement("div");
+    priceD.textContent = "$" + el.price;
+    priceD.style.padding = "5% 0 0 55%"
+    priceD.style.fontWeight = "600"
+    priceD.style.fontSize = ".85vw"
+
+
+
+    Div.append(imgDiv, nameDiv, priceD);
+
+    searchResD.append(Div);
+
+}
+
+function goTpd(el) {
+
+    if (localStorage.getItem("prodDesc") == null) {
+        localStorage.setItem("prodDesc", JSON.stringify([]))
+    }
+
+    localStorage.setItem("prodDesc", JSON.stringify([]));
+
+    let pDArr = JSON.parse(localStorage.getItem("prodDesc"));
+
+
+    pDArr.push(el);
+
+    localStorage.setItem("prodDesc", JSON.stringify(pDArr));
+
+    window.location.href = "productDescPage.html"
+
+}
+
+
+
 // saveItems=>
 
-
-
-let savedIArray = JSON.parse(localStorage.getItem("Save"));
+if(localStorage.getItem("Save") == null){
+    localStorage.setItem("Save",JSON.stringify([]))
+}
+let savedIArray5 = JSON.parse(localStorage.getItem("Save"));
 
 // console.log(savedIArray);
 
-savedIArray.forEach((prod)=>{
+if (savedIArray5.length>0){
+
+    
+
+savedIArray5.forEach((prod)=>{
 
     let appSI = document.getElementById("appSI");
     
@@ -1196,175 +1372,7 @@ savedIArray.forEach((prod)=>{
 
 })
 
-
-
-
-
-
-// searchRes=>
-
-let totalDBArr = [];
-
-TvDataBase.forEach((el)=>{
-    totalDBArr.push(el);
-})
-
-gameDataBase.forEach((el)=>{
-    var sid = 0;
-
-    totalDBArr.forEach((p)=>{
-        
-        if(el.name == p.name){
-            sid++;
-        }
-    })
-
-    if(sid == 0){
-        totalDBArr.push(el);
-        
-    }
-    
-})
-
-
-
-laptopDataBase.forEach((el)=>{
-
-    var patil = 0;
-
-    totalDBArr.forEach((p)=>{
-
-        if(el.name == p.name){
-            patil++;
-        }
-    })
-
-    if(patil == 0){
-        totalDBArr.push(el);
-    }
-    
-
-})
-
-if(localStorage.getItem("totalData") == null){
-    localStorage.setItem("totalData",JSON.stringify([]));
 }
 
-// let totArr = JSON.parse(localStorage.getItem("totalData"));
-
-localStorage.setItem("totalData",JSON.stringify(totalDBArr));
-
-
-// console.log(totalDBArr)
-let searchResD = document.getElementById("searchRes")
-
-    // totalDBArr.forEach((el)=>{
-    //     console.log(el.name);
-    // })
-
-setInterval(searchInp, 1000)
-function searchInp() {
-    let inpt = document.getElementById("inp").value.toUpperCase();
-    
-    searchResD.innerHTML = null;
-
-
-    totalDBArr.forEach((el)=>{
-        
-        // console.log(el.name);
-
-        let spName = el.name.split(" ");
-        
-        // console.log(spName);
-
-        for(var i = 0; i < spName.length;i++){
-
-            if (spName[i] == inpt){
-                
-                    appSearchProd(el);
-                        
-                
-            }
-        }
-
-    })
-
-    if (inpt != " ") {
-        let searchR = document.getElementById("searchRes");
-        searchR.style.display = "block";
-    }
-    if (inpt == "") {
-        let searchR = document.getElementById("searchRes");
-        searchR.style.display = "none";
-    }
-    // console.log(inpt)
-
-}
-
-function appSearchProd(el){
-    // console.log(el);
-
-    // searchResD.innerHTML = null;
-
-        let Div = document.createElement("div");
-        Div.style.height = "80px";
-        Div.style.margin = "2% 3% 0 3%"
-        Div.style.display = "grid";
-        Div.style.gridTemplateColumns = "30% 50% 20%"
-
-
-            let imgDiv = document.createElement("div");
-            imgDiv.style.width = "100%"
-            imgDiv.style.height = "100%"
-
-                let img = document.createElement("img");
-                img.style.width = "80%"
-                img.style.height = "90%"
-                img.src = el.image
-
-            imgDiv.append(img);
-
-            let nameDiv = document.createElement("div");
-            nameDiv.textContent = el.name;
-            nameDiv.style.fontSize = ".85vw"
-            nameDiv.style.paddingLeft = "1%"
-            nameDiv.style.paddingTop = "2%"
-            nameDiv.addEventListener("click",()=>{
-                goTpd(el);
-            })
-            
-
-            let priceD = document.createElement("div");
-            priceD.textContent = "$" + el.price;
-            priceD.style.padding ="5% 0 0 55%"
-            priceD.style.fontWeight = "600"
-            priceD.style.fontSize = ".85vw"
-            
-                
-
-        Div.append(imgDiv,nameDiv,priceD);
-
-    searchResD.append(Div);
-
-}
-
-function goTpd(el){
-
-    if(localStorage.getItem("prodDesc")==null){
-        localStorage.setItem("prodDesc",JSON.stringify([]))
-    }
-
-    localStorage.setItem("prodDesc",JSON.stringify([]));
-
-    let pDArr = JSON.parse(localStorage.getItem("prodDesc"));
-    
-
-    pDArr.push(el);
-
-    localStorage.setItem("prodDesc",JSON.stringify(pDArr));
-
-    window.location.href = "productDescPage.html"
-
-}
 
 
