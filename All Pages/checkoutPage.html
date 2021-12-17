@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut - Best Buy</title>
+    <link rel="shortcut icon" type="image/jpg"
+        href="https://www.freepnglogos.com/uploads/best-buy-png-logo/logos-quiz-answers-level-png-logo-30.png" />
+    <link rel="stylesheet" href="/Styles/checkoutPage.css">
+</head>
+<body>
+
+        <div id="navBar1">
+            <div id="logo">
+                <img src="https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/BestBuy_Logo_2020-190616.png" alt=""
+                    class="img">
+            </div>
+            <div id="checkO">Checkout</div>
+            <div id="return">Return to cart</div>
+        </div>
+
+
+        <div id="bigB">
+            <div>
+                <div id="howDiv">How do you want to pay today?</div>
+                <div id="ccTDiv">Credit or Debit Card</div>
+                <input id="inpD" type="number"  oninput="limitC(this)" required placeholder="xxxx xxxx xxxx xxxx" >
+            
+                <div id="cardImgs">
+                    <div>
+                        <img src="https://e7.pngegg.com/pngimages/648/903/png-clipart-mastercard-logo-logo-payment-visa-mastercard-paypal-mastercard-icon-text-service.png" class="imgC" alt="">
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsYWnplMRvpZPeA9Weqi5-YRhXPelUYT2gyb6yDfbconNLWkNrhDf7JJhtOTeRfzNGm_w&usqp=CAU" class="imgC" alt="">
+                    </div>
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Rupay-Logo.png/1280px-Rupay-Logo.png" class="imgC"  alt="">
+                    </div>
+                </div>
+
+                <div id="myBDiv">
+                    Use a <b>y Best Buy® Credit Card </b> M& get Rewards or Flexible Financing
+                </div>
+
+                <div id="cvvDiv">
+                    <div >
+                        <div class="cvvT"> CVV</div>
+                        <input type="password" class="cvvInp" oninput="cvv1(this)">
+                    </div>
+                    <div>
+                        <div class="cvvT"> Valid Upto</div>
+                        <input type="number" class="cvvInp1" oninput="cvv2(this)">
+                    </div>
+                </div>
+
+                <div id="bAT">
+                    Billing Address
+                </div>
+                <div id="bAD">
+                    <div>
+                        <div>First Name</div>
+                        <input type="text" class="nmInp h">
+                    </div>
+                    <div>
+                        <div>Last Name</div>
+                        <input type="text" class="nmInp h">
+                    </div>
+                </div>
+
+                <div id="addDiv">Address</div>
+                <input type="text" class="nmInp1 h">
+
+                <div id="bAD1">
+                    <div>
+                        <div>City</div>
+                        <input type="text" class="nmInp2 h">
+                    </div>
+                    <div>
+                        <div>ZIP Code</div>
+                        <input type="text" class="nmInp2 h">
+                    </div>
+                </div>
+
+
+                <div id="placeODiv">
+                    Place Your Order
+                </div>
+            </div>
+            <div id="oSDiv">
+                <div id="IosDiv">
+                    <div id="osDT">Order Summary</div>
+
+                    <div id="appAllProdDiv">
+                        
+                            <div id="appProd">
+                                <div id="sp">
+                                    <div>
+                                        <b> Store Pickup</b>
+                                    </div>
+                                    <div id="go">Edit</div>
+                                </div>
+                                <div id="d">Aiea</div>
+                                
+                                <!-- appendProdHere -->
+                                <div id="NowAppProdH">
+                                
+                                </div>
+
+                            </div>
+                            
+                            <div id="prDiv">
+                                <div id="allPD">
+                                    <div class="p">
+                                        <div>Item Subtotal</div>
+                                        <div id="totalOP" class="l"></div>
+                                    </div>
+                                    
+                                    <div class="p">
+                                        <div>Store Pickup</div>
+                                        <div class="l">FREE</div>
+                                    </div>
+
+                                    <div class="p1">
+                                        <div class="l1">Estimated Sales Tax</div>
+                                        <div  class="l">$41</div>
+                                    </div>
+
+                                    <div id="savGD">
+                                        You’re saving <span id="totalSav">320</span>  on your order today!
+                                    </div>
+
+                                    <div class="p2">
+                                        <div class="l2">Total</div>
+                                        <div class="l3" id="totalOp"></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+
+                        
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+
+    
+</body>
+</html>
+<script src="/JS Files/checkoutPage.js"></script>

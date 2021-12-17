@@ -1,0 +1,238 @@
+body{
+    margin: 0px;
+    font-family:Arial;
+     background-color: #f0f2f4;
+}
+
+#navBar1{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0,70,190);
+    display: flex;
+   
+    box-sizing: border-box;
+    border-bottom: .5px solid rgb(102, 135, 241);
+}
+#logo{
+    width: 5%;
+    height: 100%;
+    margin: 0 0 0 16.5%;
+    box-sizing: border-box;
+    padding: 1% 0 0 0 ;
+    cursor: pointer;
+}
+.img{
+    width: 93%;
+    height: 80%;
+}
+
+#return{
+    font-size: .85vw;
+    color: white;
+    margin: 2% 0 0 51%;
+    cursor: pointer;
+}
+
+#inpSec{
+    background-color: #f0f2f4;
+    width: 100%;
+    /* height: 900px; */
+    box-sizing: border-box;
+    padding-top: 2%;
+}
+
+#outInpBox{
+    width: 25%;
+    height: 750px;
+    margin:  auto ;
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 2%;
+}
+
+#cAText{
+    text-align: center;
+    /* margin-top: 25px; */
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+
+
+
+#smallText{
+    font-size: .81vw;
+    text-align: center;
+    margin: 10px 0 0  0;
+    font-weight: 300;
+}
+
+#cl{
+    color: rgb(0,70,190);
+}
+
+#nameInpDiv{
+    width: 85%;
+    margin: 8% auto auto auto;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #90959e;
+}
+
+#emailDiv{
+    width: 85%;
+    margin: 8% auto auto auto;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #90959e;
+}
+
+#passDiv{
+    width: 85%;
+    margin: 8% auto auto auto;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #90959e;
+}
+
+#usernameDiv{
+    width: 85%;
+    margin: 8% auto auto auto;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #90959e;
+}
+
+#mobileDiv{
+    width: 85%;
+    margin: 8% auto auto auto;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #90959e;
+}
+
+
+#descDiv{
+    width: 85%;
+    margin: 8% auto auto auto;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid #90959e;
+}
+
+#nameInpDiv:hover,#emailDiv:hover,#passDiv:hover,#usernameDiv:hover,#mobileDiv:hover,#descDiv:hover{
+    border: 1px solid rgba(0,70,190,255);
+}
+
+.inpClass{
+    margin: 3.1% 0 0 4%;
+    width: 70%;
+    height: 20px;
+    border: none;
+    font-weight: 600;
+    font-size: 1.01vw;
+    color: black;
+    outline: none;
+}
+
+
+
+
+
+#checkB{
+    margin: 3% 0 0 8%;
+}
+#pad1{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    margin: 3% 0 0  8%;
+}
+
+#pad{
+    margin: -.5% 0 0 0;
+}
+
+#text{
+    margin:  0 0 0 1%;
+    font-size: .75vw;
+    /* margin: -10% 0 0 1%; */
+}
+
+
+
+#createA{
+    width: 85%;
+    margin: 6% auto auto auto;
+    height: 45px;
+    border-radius: 5px;
+    background-color: rgba(0,70,190,255);
+    /* border: 1px solid #90959e; */
+
+    font-size: 1vw;
+    color: white;
+    box-sizing: border-box;
+    padding: 3.8% 0 0 25%;
+    font-weight: 600;
+    transition: .2s  linear;
+}
+
+#or{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    width: 85%;
+    margin: 4% auto auto auto;
+}
+
+#or>div:nth-child(2){
+    font-size: .9vw;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 0 0 0 39%;
+}
+
+
+
+#google{
+    width: 85%;
+    margin: 6% auto auto auto;
+    height: 45px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgba(0,70,190,255);
+
+    font-size: 1vw;
+    color: rgba(0,70,190,255);
+    box-sizing: border-box;
+    padding: 3.8% 0 0 25%;
+    font-weight: 600;
+    transition: .2s  linear;
+}
+
+
+#createA:hover,#google:hover{
+    background-color:rgb(0,30,115) ;
+    cursor: pointer;
+}
+
+#google:hover{
+    color: white;
+}
+
+#already{
+    font-size: .8vw;
+    font-weight: 600;
+    margin: 5% 0 0 8%; 
+}
+#signIn{
+    font-weight: 400;
+    color: rgba(0,70,190,255);
+
+}
+#signIn:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(0,30,115);
+}
+
+div{
+    /* border: 1px solid black; */
+}
