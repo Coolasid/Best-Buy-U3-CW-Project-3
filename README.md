@@ -27,8 +27,8 @@
 ### **Cart Page**
 ![](https://github.com/Coolasid/Bestbuy-U3-CW-Project/blob/f023da2e3b7692cc7c113ee2e4e14e0c916381ed/All%20Images/Screenshot%20(968).png)
 #### In cart page they user can see the total amount of the product which user choosen. Another feature of this page is **Promo Code** if the user have promo  code they can avail the discount on the total price. But unfortunately user can avail the promo code only once. If by chance user forgot to add some more products than he/she can access the product page again by clicking on SHOP NOW button.
-### **Payment Page**
-![](https://cdn-images-1.medium.com/max/800/1*bgZqHG9oqcHPBmPLRIRFyQ.png)
+### **Checkout Page**
+![](https://github.com/Coolasid/Bestbuy-U3-CW-Project/blob/50fca99a2581267b1bd6443540ef9b19afcc1dbb/All%20Images/Screenshot%20(969).png)
 ### **Payment Completion page**
 ![](https://cdn-images-1.medium.com/max/800/1*3utNb5Sb83FM93nPAgkwuQ.png)
 #### Finally the order is placed on submitting all the payment credential.
