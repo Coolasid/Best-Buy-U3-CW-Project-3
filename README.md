@@ -1,6 +1,6 @@
 ># CLONING BEST BUY WEBSITE
 #### &nbsp;&nbsp;&nbsp;By Siddesh Patil.
-#### &nbsp;&nbsp; An online shopping website for purchase of Electronics.
+#### &nbsp;&nbsp; An US based online shopping website for purchase of Electronics.
 ## Technologies Used:
 * HTML
 * CSS
