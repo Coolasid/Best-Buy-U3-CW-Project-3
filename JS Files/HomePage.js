@@ -681,7 +681,7 @@ function addTvData(){
 
     localStorage.setItem("productData", JSON.stringify(tvArr));
 
-    window.location.href = "productPage.html"
+    window.location.href = "../All Pages/productPage.html"
 
 }
 
@@ -901,7 +901,7 @@ function addLaptopData(){
 
     localStorage.setItem("productData", JSON.stringify(lpArr));
 
-    window.location.href = "productPage.html"
+    window.location.href = "../All Pages/productPage.html"
 }
 
 /////////////////////////
@@ -1120,7 +1120,7 @@ function addGameData() {
 
     localStorage.setItem("productData", JSON.stringify(gmArr));
 
-    window.location.href = "productPage.html"
+    window.location.href = "../All Pages/productPage.html"
 }
 
 /////////////////////////
