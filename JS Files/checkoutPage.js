@@ -12,7 +12,7 @@ returnToHome.addEventListener("click", () => {
 
 let goHome = document.getElementById("logo");
 goHome.addEventListener('click', () => {
-    window.location.href = "HomePage.html"
+    window.location.href = "../index.html"
 })
 
 

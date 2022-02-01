@@ -6,5 +6,5 @@ let cart = JSON.parse(localStorage.getItem("cartProducts"));
 function emptyCart() {
     cart = [];
     localStorage.setItem("cartProducts", JSON.stringify(cart));
-    window.location.href = "homePage.html"
+    window.location.href = "../index.html"
 }

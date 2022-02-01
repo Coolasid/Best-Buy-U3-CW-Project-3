@@ -8,12 +8,12 @@ signInPage.addEventListener("click",() =>{
 
 let returnToHome = document.getElementById("return");
 returnToHome.addEventListener("click", () =>{
-    window.location.href = "HomePage.html"
+    window.location.href = "../index.html"
 })
 
 let goHome = document.getElementById("logo");
 goHome.addEventListener('click', () => {
-    window.location.href = "HomePage.html"
+    window.location.href = "../index.html"
 })
 
 

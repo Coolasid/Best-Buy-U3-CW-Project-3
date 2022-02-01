@@ -176,7 +176,7 @@ function saveIBox() {
 let goTOHome = document.getElementById("bestBLogo")
 goTOHome.style.cursor = "pointer"
 goTOHome.addEventListener("click", () => {
-    window.location.href = "HomePage.html"
+    window.location.href = "../index.html"
 })
 
 

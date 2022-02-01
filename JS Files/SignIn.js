@@ -10,12 +10,12 @@ signUpPage.addEventListener("click", () => {
 
 let returnToHome = document.getElementById("return");
 returnToHome.addEventListener("click", () => {
-    window.location.href = "HomePage.html"
+    window.location.href = "../index.html"
 })
 
 let goHome = document.getElementById("logo");
 goHome.addEventListener('click',()=>{
-    window.location.href = "HomePage.html"
+    window.location.href = "../index.html"
 })
 
 //adding Functionality=>
@@ -90,7 +90,7 @@ async function fetchMyData(usName, token) {
             console.log(nameArr);
 
             localStorage.setItem("userName", JSON.stringify(nameArr));
-            window.location.href = "HomePage.html";
+            window.location.href = "../index.html";
         }
 
 }
