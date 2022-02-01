@@ -166,11 +166,11 @@ signIn.addEventListener("click", openSignIn)
 signUp.addEventListener("click", openSignUp)
 
 function openSignIn() {
-    window.location.href = "SignIn.html"
+    window.location.href = "../All Pages/SignIn.html"
 }
 
 function openSignUp() {
-    window.location.href = "SignUp.html";
+    window.location.href = "../All Pages/SignUp.html";
 }
 
 // naveBar
