@@ -381,7 +381,7 @@ cartArr.forEach((prod)=>{
                     let saveDiv = document.createElement("div");
                     saveDiv.style.fontSize = ".75vw"
                     saveDiv.textContent = "save";
-                    saveDiv.style.margin = "1% 0 0 56% "
+                    saveDiv.style.margin = "2% 0 0 56% "
                     saveDiv.addEventListener("click",()=>{
                         removeProd(prod);
                     })
