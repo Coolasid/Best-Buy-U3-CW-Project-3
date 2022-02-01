@@ -155,7 +155,7 @@ goTOHome.addEventListener("click", () => {
 let cartPage = document.getElementById("cart");
 cartPage.style.cursor = "pointer"
 cartPage.addEventListener("click", () => {
-    window.location.href = "cartPage.html"
+    window.location.href = "./All Pages/cartPage.html"
 
 })
 
