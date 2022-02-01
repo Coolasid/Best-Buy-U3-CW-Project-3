@@ -1291,7 +1291,7 @@ function goTpd(el) {
 
     localStorage.setItem("prodDesc", JSON.stringify(pDArr));
  
-    window.location.href = "productDescPage.html"
+    window.location.href = "../All Pages/productDescPage.html"
 
 }
 
