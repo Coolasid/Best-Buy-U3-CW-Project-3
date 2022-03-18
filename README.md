@@ -10,7 +10,7 @@
 * Navigate to the top level of the directory.
 * Open homepage.html.
 ## Features:
-#### &nbsp;&nbsp; User-side: User login,  Filter Products, Add Product To Wishlist, Sort Products, Add Products to the cart, Payment.
+#### &nbsp;&nbsp; User-side: User login, Multi-faceted Search bar, Filter Products, Add Product To Wishlist, Sort Products, Add Products to the cart, Payment.
 ## Product Description:
 #### &nbsp;&nbsp; This browser Application allows user to shop online with functionality like search, sort, filter its becomes easy for the user to select the desired product with minimum amount of time.
 ### **Home Page**
